@@ -1,0 +1,287 @@
+@charset "utf-8"; /* CSS Document */
+.ky_nav{width:100%;height:40px;background:#18b160;}
+.main_nav{width:1200px;height:40px;}
+.zg_kywx_kcfl{position:relative;color:#fff;width:180px;height:40px;cursor:pointer;font-size:16px;line-height:40px;padding-left:40px;float:left;_display:inline}
+.ky_nav, .main_nav, .zg_kywx_kcfl{z-index:1111;}
+.kywx_nav{float:left;line-height:40px;height:40px;overflow:hidden;width:980px;}
+.kywx_nav a{font-family:"Microsoft YaHei";margin-left:45px;font-size:16px;color:#fff;}
+.kywx_nav a:hover{color:#fff;text-decoration:none;}
+.zg_aside{position:absolute;left:0;top:40px;width:216px;background:#f9f9f9;border-top:none;z-index:9;padding-bottom:10px;display:none;}
+.zg_aside dl{border-bottom:1px solid #fff;padding-left:15px;}
+.zg_aside dt{line-height:37px;}
+.zg_aside dt a{font-size:16px;color:#333;font-family:"Microsoft YaHei";font-weight:bold;}/*加粗,by zrj,2015-06-05 10:07:36?*/
+.zg_aside dd{line-height:23px;}
+.zg_aside dd a{color:#333;font-family:"Microsoft YaHei";font-size:14px;margin-right:10px;display:inline-block;}
+.zg_aside_more{color:#333;line-height:30px;padding-left:15px;}
+#kcfl i{background:url(../images/ky_service_06.gif) no-repeat;width:11px;height:7px;display:block;position:absolute;right:14px;top:17px}
+.zg_aside a:hover{color:#f60;}
+.fw_banner{width:100%;background:url(../images/service_10.jpg) no-repeat center top;height:500px;margin-bottom:40px;}
+.fw_ban{width:1200px;height:500px;}
+.fw_ban img{display:block;}
+.fw_con1{width:1095px;background:url(../images/ky_service_17.jpg) no-repeat 21px 0;height:499px;padding-left:105px;}
+.fw_con1_left{width:635px;float:left;background:url(../images/ky_service_23.jpg) no-repeat 0 251px;height:499px;}
+.fw_tit{font-size:36px;display:block}
+.fw_p{color:#666;line-height:34px;padding-top:10px;}
+.fw_con1_right{background:url(../images/ky_service_20.jpg) no-repeat left 53px;width:440px;height:99px;float:left;padding-top:400px;}
+.fw_con1_right a{margin-right:20px;}
+.con2{width:100%;height:464px;background:#f9f9f9;}
+.fw_con2{background:url(../images/ky_service_34.jpg) no-repeat 21px 0 #f9f9f9;height:464px;width:1095px;padding-left:105px;}
+.fw_con2_left{width:635px;float:left;height:425px;padding-top:39px;}
+.wdxxjh{margin-top:55px;display:block;}
+.fw_con2_right{width:425px;float:left;height:464px;background:url(../images/ky_service_36.jpg) no-repeat right 9px;position:relative;}
+.fw_con2_right span{font-size:20px;color:#666;position:absolute;}
+.ljxxjh{font-size:20px;position:absolute;left:160px;top:334px;text-decoration:underline;}
+.con3{width:100%;background:#16b160;height:432px;}
+.fw_con3{background:url(../images/ky_service_43.jpg) no-repeat 21px 0 #16b160;height:432px;width:1095px;padding-left:105px;}
+.zxtk{color:#fff;display:block;line-height:140px;}
+.zxtk_bz{background:url(../images/ky_service_45.jpg) no-repeat;width:912px;height:198px;margin:20px 0 0 62px;position:relative;}
+.zxtk_bz span{font-size:24px;position:absolute;display:block;width:196px;text-align:center;}
+.con4{width:100%;height:784px;background:#f9f9f9;}
+.fw_con4{background:url(../images/ky_service_48.jpg) no-repeat 21px 0 #f9f9f9;height:741px;width:1095px;padding-left:105px;padding-top:43px;}
+.fw_con4_left{width:660px;float:left;}
+.wdx{font-size:28px;background:url(../images/ky_service_50.jpg) no-repeat;width:260px;height:60px;text-align:center;line-height:60px;display:block;margin:30px 0 16px 175px;}
+.what{background:url(../images/ky_service_54.jpg) no-repeat;height:550px;width:550px;padding-left:110px;}
+.what span{font-size:24px;display:block;line-height:55px;padding-top:13px;}
+.what p{width:480px;margin:0;line-height:30px;color:#666;}
+.dxal{margin:46px 0 0 75px;display:block;}
+.fw_con4_right{width:418px;float:left;padding-top:78px;position:relative;}
+.fw_con4_right .wdx{margin:0px auto 45px;}
+.fw_con4_right table{border-collapse:collapse;}
+.fw_con4_right table td{border:1px solid #f9f9f9;}
+.fw_con4_right table td img{display:block;}
+.fw_con4_right table td .pic{background:#000;opacity:.4;filter:alpha(opacity=40);}
+.huat{width:271px;height:104px;font-size:24px;opacity:.9;filter:alpha(opacity=90);text-align:center;position:absolute;left:89px;top:300px;background:#fff;padding-top:25px;display:none;}
+.fw_con5{width:1095px;background:url(../images/ky_service_76.jpg) no-repeat 21px 0;height:553px;padding-top:44px;padding-left:105px;}
+.fw_con5_left{float:left;width:636px;background:url(../images/ky_service_86.jpg) no-repeat 59px 154px;height:550px;}
+.fw_con5_right{float:left;width:453px;}
+.dypt{background:url(../images/fw_74.jpg) no-repeat left center;font-size:22px;line-height:77px;padding-left:16px;margin-top:60px;}
+.fw_con5_right dl{float:left;margin-right:9px;height:181px;}
+.fw_con5_right dd{text-align:center;line-height:36px;}
+.con6{width:100%;background:#16b160;height:590px;}
+.fw_con6{background:url(../images/ky_service_104.jpg) no-repeat 21px 0 #16b160;height:547px;width:1095px;padding-left:105px;padding-top:43px;}
+.zwpg{color:#fff;display:block;}
+.zwpglc{font-size:24px;color:#fff;display:block;margin-left:407px;background:url(../images/ky_service_106.jpg) no-repeat;width:268px;height:56px;text-align:center;line-height:56px;}
+.lcpic{margin:25px 0;}
+.zzsm{background:url(../images/ky_service_113.jpg) no-repeat;width:1019px;padding-left:42px;height:234px;margin-left:15px;}
+.zzsm dt{font-size:30px;color:#4eec99;line-height:98px;}
+.zzsm dd{font-size:24px;color:#4eec99;height:43px;}
+.fw_con7{width:1095px;background:url(../images/ky_service_116.jpg) no-repeat 21px 0;height:610px;padding-left:105px;padding-top:43px;}
+.zxcplc{background:url(../images/ky_service_118.jpg) no-repeat;font-size:22px;display:block;margin-left:407px;width:263px;height:55px;text-align:center;line-height:56px;}
+.zxlcpic{margin:19px 0 49px;}
+.mfty{height:199px;margin-top:28px;padding-left:80px;}
+.mfty a{font-size:22px;text-align:center;line-height:189px;float:left;color:#93582c;height:199px;width:199px;background:url(../images/ky_service_126.jpg) no-repeat;margin-right:40px;}
+.mfty a strong{color:#93582c;font-size:36px;}
+.con8{width:100%;height:474px;background:#f9f9f9;}
+.fw_con8{background:url(../images/ky_service_129.jpg) no-repeat 21px 0 #f9f9f9;height:431px;width:1095px;padding-left:105px;padding-top:43px;}
+.fw_con8_left{background:url(../images/ky_service_138.jpg) no-repeat 0 229px;height:400px;float:left;width:708px;}
+.fw_con8_right{float:left;width:356px;}
+.fw_con8_right dt{padding:73px 0 18px;}
+.fw_con8_right dt span{background:url(../images/ky_service_131.jpg) no-repeat;width:189px;height:46px;text-align:center;line-height:46px;color:#fff;font-size:22px;display:block;}
+#full-screen-slider{position:relative;}
+.zghome_banner{width:100%;height:430px;background:#e3e3e3;}
+.zghome_banner #slides{display:block;width:100%;height:430px;list-style:none;padding:0;margin:0;position:relative}
+.zghome_banner #slides li{display:block;width:100%;height:100%;list-style:none;padding:0;margin:0;position:absolute}
+.zghome_banner #slides li a{display:block;width:1200px;height:100%;margin:0 auto;}
+.zghome_banner #pagination{display:block;list-style:none;position:absolute;left:50%;bottom:20px;z-index:9900;margin-left:-480px;}
+.zghome_banner #pagination li{display:block;list-style:none;width:12px;height:12px;float:left;margin-right:10px;background:url(../images/quan.png) no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/quan.png");_background:none;}
+.zghome_banner #pagination li a{display:block;width:100%;height:100%;padding:0;margin:0;text-indent:-9999px;}
+.zghome_banner #pagination li.current{width:12px;height:12px;background:url(../images/quan1.png) no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/quan1.png");_background:none;}
+.offcn_kygg{width:1200px;height:auto;clear:both;overflow:hidden;}
+.offcn_kygg h3{height:38px;width:1200px;margin:11px 0 8px 0;font:22px "Microsoft YaHei";color:#333;}
+.offcn_kygg .offcn_kyggk{margin-top:33px;}
+.offcn_kygg_cont{width:1200px;height:auto;}
+.offcn_kygg_left{width:218px;height:auto;float:left;border:1px solid #dddddd;border-bottom:0;cursor:pointer;}
+.offcn_kygg_left a{display:block;width:196px;height:48px;border-bottom:1px solid #dddddd;font:14px/48px "Microsoft YaHei";color:#666;padding-left:22px;}
+.offcn_kygg_left a:hover{background:#18b160;color:#fff;text-decoration:none;}
+.offcn_kygg_left a.kyhover{background:#18b160;color:#fff;text-decoration:none;height:50px;}
+.offcn_kygg_right{width:960px;height:auto;float:left;margin-left:20px;}
+.offcn_kygg_right .offcn_tab{width:960px;height:366px;position:relative;display:none;overflow:hidden;}
+.offcn_kygg_right .offcn_tab_kj{width:960px;height:auto;position:relative;display:none;overflow:hidden;}
+.offcn_kygg_right .offcn_tab div{height:345px;overflow:hidden;border-bottom:1px solid #e2e2e2;}
+.offcn_kygg_right table{clear:both;border:1px solid #e2e2e2;}
+.offcn_kygg_right table th{background:#f4f4f4;height:49px;border-bottom:1px solid #e2e2e2;font-size:14px;color:#444;font-weight:bold;}
+.offcn_kygg_right table td{height:49px;color:#333;text-align:center;}
+.offcn_kygg_right table td b{color:#ff6600;}
+.offcn_kygg_right table td em{text-decoration:line-through;font-style:normal;}
+.offcn_kygg_right table td.offcn_kcmc{padding-left:20px;text-align:left;}
+.offcn_kygg_right .offcn_tab .offcn_ckgd{position:absolute;bottom:0;left:413px;background:url(../images/xkzx_13.jpg) no-repeat;width:80px;height:22px;}
+.offcn_kygg_right .offcn_tab .offcn_ckgd_hover{background:url(../images/offcn_pic_12.jpg) no-repeat;bottom:1px;}
+.offcn_kygg_right .offcn_tab_click{height:auto;padding-bottom:22px;overflow:hidden;}
+.offcn_kygg_right .offcn_tab div.div_click{height:auto;border:none;overflow:hidden;}
+.offcn_mt{margin-top:0;}
+.offcn_kygg_right table td .offcn_cckgd{color:#18b160;}
+.offcn_kygg_right .offcn_tab_db{width:960px;height:auto;position:relative;display:none;overflow:hidden;padding-bottom:22px;}
+.offcn_tile{width:1176px;height:53px;background:url(../images/zy_03.jpg) no-repeat left center;padding-left:24px;color:#aaa;line-height:53px;}
+.offcn_tile a{color:#333;}
+.offcn_tile a:hover{color:#18b160;}
+.offcn_zylb{width:1200px;height:auto;overflow:hidden;}
+.offcn_zylb_left{width:892px;height:auto;overflow:hidden;float:left;}
+.offcn_zylb_left h3{position:relative;width:892px;height:33px;font:22px "Microsoft YaHei";color:#333;}
+.offcn_zylb_left h3 span{position:absolute;left:141px;top:7px;}
+.offcn_zylb_left h3 span b{padding:0 20px;font-size:14px;color:#333;height:29px;float:left;cursor:pointer;}
+.offcn_zylb_left h3 span b.span_hover{background:url(../images/zy_07.jpg) no-repeat center bottom;color:#18b160;}
+.offcn_zylb_left h3 span em{float:left;font-style:normal;}
+.offcn_jjx_top{width:892px;height:auto;margin-top:14px;}
+.offcn_jjx_top table{clear:both;border:1px solid #e2e2e2;}
+.offcn_jjx_top table th{background:#f4f4f4;height:49px;border-bottom:1px solid #e2e2e2;font-size:14px;color:#444;font-weight:bold;}
+.offcn_jjx_top table td{height:49px;color:#333;text-align:center;}
+.offcn_jjx_top table td b{color:#ff6600;}
+.offcn_jjx_top table td em{text-decoration:line-through;font-style:normal;}
+.offcn_jjx_top table td.offcn_kcmc{padding-left:20px;text-align:left;}
+.offcn_jjx_top .offcn_tab .offcn_ckgd{position:absolute;bottom:-2px;left:413px}
+.offcn_jjx_bottom{width:892px;height:auto;}
+.offcn_jjx_bottom h4{width:892px;height:43px;font:22px/24px "Microsoft YaHei";color:#333;padding-top:31px;background:url(../images/zy_28.jpg) no-repeat 144px 39px;}
+.offcn_jjx_bottom table{clear:both;border:1px solid #e2e2e2;}
+.offcn_jjx_bottom table th{background:#f4f4f4;height:40px;border-bottom:1px solid #e2e2e2;font-size:14px;color:#444;font-weight:bold;}
+.offcn_jjx_bottom table td{height:49px;color:#333;text-align:center;border-bottom:1px solid #ddd;}
+.offcn_jjx_bottom table td.offcn_bx{border-right:1px solid #ddd;}
+.offcn_jjx_bottom table td b{color:#ff6600;}
+.offcn_jjx_bottom table td em{text-decoration:line-through;font-style:normal;}
+.offcn_jjx_bottom table td.offcn_kcmc{padding-left:20px;text-align:left;}
+.offcn_jjx_bottom .offcn_tab .offcn_ckgd{position:absolute;bottom:-2px;left:413px}
+.offcn_jjx_bottom table .offcn_tabback{background:#fafafa;}
+.offcn_zylb_right{width:280px;height:auto;overflow:hidden;margin-left:28px;float:left;}
+.offcn_zylb_right h3{width:280px;height:33px;font:22px "Microsoft YaHei";color:#333;margin-bottom:14px;}
+.offcn_zylb_right dl{width:280px;height:94px;border-bottom:1px dashed #dbdbdb;margin-bottom:16px;}
+.offcn_zylb_right dl dt{width:134px;height:78px;float:left;}
+.offcn_zylb_right dl dd{width:134px;height:78px;float:left;margin-left:12px;}
+.offcn_zylb_right dl dd span{display:block;width:134px;color:#333;line-height:22px;height:22px;margin-top:3px;}
+.offcn_zylb_right dl dd strong{display:block;width:134px;height:22px;line-height:22px;color:#666;}
+.offcn_zylb_right dl dd strong b{color:#ff6600;}
+.offcn_zylb_right dl dd font{display:block;width:134px;height:22px;color:#888;line-height:22px;}
+.offcn_zylb_right dl dd font a{float:left;width:50px;height:21px;margin-right:10px;}
+.zg_kywx_tit{height:41px;width:1200px;background:url(../images/kywx_58.jpg) repeat-x left bottom;margin:40px auto 22px;clear:both;padding-top:22px;}
+.zg_kywx_tit font{font-size:22px;width:192px;float:left;}
+.qh_box{float:left;width:1000px;}
+.qh_box a{font-size:14px;color:#333;margin-right:35px;padding:17px 15px;line-height:35px;text-decoration:none;}
+.qh_box .kywx_dq{background:url(../images/kywx_56.jpg) repeat-x left bottom;color:#18b160;font-weight:bold;}
+#kyms_box{width:1200px;height:312px;clear:both;}
+#kyms_box .offcn_demo{width:1200px;height:312px;position:relative;overflow:hidden;display:none;}
+#kyms_box .bx_wrap ul li{float:left;width:207px;height:312px;}
+#kyms_box .bx_wrap a.prev{z-index:10;position:absolute;display:block;width:38px;height:70px;top:70px;left:0px;outline-style:none;outline-width:0;text-indent:-999em;background:url(../images/zuo.png) center center no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/zuo.png");_background:none;}
+#kyms_box .bx_wrap a.next{z-index:10;position:absolute;display:block;width:38px;height:70px;top:70px;right:0px;outline-style:none;outline-width:0;text-indent:-999em;background:url(../images/you.png) center center no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/you.png");_background:none;}
+.teacher{font-size:14px;display:block;color:#333;line-height:27px;margin-top:12px;}
+.course{display:block;color:#888;line-height:25px;}
+#kybook_box{width:1200px;height:300px;}
+#kybook_box .offcn_demo{width:1200px;height:300px;position:relative;overflow:hidden;display:none;}
+#kybook_box .bx_wrap ul li{float:left;width:155px;padding-left:45px;height:280px;padding-top:20px;_display:inline;}
+#kybook_box .bx_wrap a.prev{z-index:10;position:absolute;display:block;width:27px;height:48px;top:96px;left:0px;outline-style:none;outline-width:0;text-indent:-999em;background:url(../images/pret.jpg) center center no-repeat;}
+#kybook_box .bx_wrap a.next{z-index:10;position:absolute;display:block;width:27px;height:48px;top:96px;right:0px;outline-style:none;outline-width:0;text-indent:-999em;background:url(../images/next.jpg) center center no-repeat;}
+.book{color:#333;line-height:25px;margin-top:15px;display:block;}
+.zg_kywx{width:100%;height:470px;background:#eefcf6;}
+.kywx_ts{width:1200px;height:470px;}
+.kywx_title{font-size:22px;height:100px;line-height:100px;}
+.kywx_ts table td{text-align:center;font-size:14px;color:#666;line-height:27px;}
+.kywx_ts table .f24 td{font-size:24px;font-family:"Microsoft YaHei";color:#666;}
+.offcn_people{margin-top:15px;width:1200px;}
+.offcn_people li{width:98px;height:98px;float:left;position:relative;overflow:hidden;margin-right:2px;margin-bottom:5px;}
+.offcn_people li span{display:block;width:98px;height:20px;background:#000;opacity:0.5;position:absolute;top:98px;color:#fff;text-align:center;line-height:20px;left:0;}
+.offcn_jrtx{width:1200px;height:100px;text-align:center;font-size:25px;font-family:"Microsoft YaHei";clear:both;}
+.offcn_jrtx span{display:inline-block;height:100px;line-height:100px;font-size:25px;font-family:"Microsoft YaHei";}
+.offcn_jrtx em{color:#ff6601;font-style:normal;font-size:25px;font-family:"Microsoft YaHei";}
+.kywx_dq{width:1176px;background:url(../images/kywx_list_03.jpg) no-repeat left center;height:58px;color:#aaa;line-height:58px;padding-left:24px;}
+.kywx_dq a{color:#333;}
+.kywx_dq span{color:#18b160}
+.kywx_box{width:1200px;overflow:hidden;padding-bottom:35px;}
+.kywx_list_left{width:840px;float:left;padding-right:30px;margin-right:29px;border-right:1px solid #e5e5e5;}
+.kywx_km{width:840px;background:#f8f8f8;padding-top:7px;overflow:hidden;padding-bottom:15px;}
+.kywx_km dt{float:left;width:60px;font-size:14px;text-align:right;line-height:32px;}
+.kywx_km dd{float:left;width:780px;}
+.kywx_km dd a{font-size:14px;font-family:"Microsoft YaHei";padding:0 4px;margin-right:5px;margin-top:5px;display:inline-block;color:#333;}
+.kywx_km dd a:hover{color:#fff;text-decoration:none;background:#18b160;border-radius:2px;}
+.kywx_km dd a.kywx_xz{color:#fff;text-decoration:none;background:#18b160;border-radius:2px;}
+.kywx_list_tit{height:38px;border-bottom:1px solid #d7d7d7;font-size:22px;padding-top:24px;}
+.kywx_list_tit span{font-size:14px;color:#dfdfdf;margin-left:42px;}
+.kywx_list_tit span a{font-size:14px;color:#333;}
+.kywx_list_tit span a:hover{color:#18b160;}
+.kywx_list_tit span a.kywx_mq{color:#18b160;}
+.list_x{border-bottom:1px dashed #9e9e9e;padding-top:20px;height:155px;}
+.list_18{line-height:33px;}
+.list_18 a{font-size:18px;color:#333;}
+.list_18 a:hover{color:#18b160;}
+.list_time{color:#999;line-height:36px;}
+.list_word{color:#666;line-height:28px;}
+.list_word span{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.pages{text-align:center;padding-top:40px;padding-bottom:25px;}
+.pages a{border:1px solid #ddd;margin-right:3px;text-align:center;height:28px;line-height:28px;color:#333;display:inline-block;padding:0 13px;}
+.pages span{border:1px solid #18b160;margin-right:3px;text-align:center;height:28px;line-height:28px;color:#fff;background:#18b160;display:inline-block;width:28px;}
+.pages font{width:30px;height:30px;line-height:30px;text-align:center;display:inline-block;}
+.pages .pre, .pages .nex{width:62px;}
+.pages a:hover{border:1px solid #18b160;color:#fff;background:#18b160;}
+.page_txt{width:48px;height:28px;border:1px solid #ddd;margin-left:6px;vertical-align:middle;}
+.page_btn{width:31px;height:30px;text-align:center;line-height:30px;vertical-align:middle;background:#888;cursor:pointer;border:none;color:#fff;margin-left:6px;}
+.list_hdzt{border-bottom:1px solid #d7d7d7;font-size:22px;font-weight:normal;height:50px;line-height:50px;margin-top:20px;margin-bottom:20px;clear:both;}
+.hdzt_list{width:260px;height:194px;float:left;margin-right:30px;}
+.hdzt_list dd{text-align:center;line-height:34px;}
+.hdzt_list dd a{font-size:14px;font-family:"Microsoft YaHei";}
+.nmr{margin-right:0;}
+.kywx_list_right{float:left;width:300px;}
+.kywx_list_right h3{font-size:18px;height:42px;font-weight:normal;color:#333;}
+.kywx_list_right h3 span{color:#888;padding-left:24px;}
+.kywx_rmtj{width:300px;height:78px;}
+.kywx_rmtj dt{width:134px;height:78px;margin-right:12px;float:left;}
+.kywx_rmtj dd{float:left;width:154px;}
+.kywx_rmtj dd span{display:block;line-height:25px;}
+.kywx_rmtj dd font{display:block;line-height:25px;color:#666;}
+.kywx_rmtj dd font em{font-style:normal;}
+.list{padding-top:10px;height:220px;}
+.list li{line-height:34px;}
+.list li span{display:inline-block;width:160px;}
+.shop{float:right;background:url(../images/kywx_44.jpg) no-repeat left center;padding-left:26px;}
+.mfst{background:url(../images/kywx_list_15.jpg) no-repeat left center;padding-left:22px;}
+.pic1{width:300px;height:105px;}
+.list2{height:164px;}
+.list2 li{color:#666;line-height:30px;}
+.list2 li span{width:235px;color:#333;}
+.pic_box{width:300px;height:220px;margin-bottom:25px;}
+#slider{width:100%;}
+.slider_box{width:300px;height:220px;position:relative;}
+.silder_con{height:220px;overflow:hidden;position:absolute;}
+.silder_panel{width:300px;height:220px;overflow:hidden;float:left;position:relative;}
+.silder_nav{width:40px;height:14px;top:-20px;right:0;position:absolute;overflow:hidden;text-align:right;}
+.silder_nav li{float:left;margin:0 3px;width:7px;height:7px;overflow:hidden;background:url(../images/kywx_list_22.jpg) no-repeat;cursor:pointer;}
+.silder_nav li.current{background:url(../images/kywx_list_24.jpg) no-repeat;}
+.silder_panel{position:relative;}
+.silder_panel span{position:absolute;left:0;bottom:0;height:32px;width:300px;display:block;line-height:32px;background:#000;opacity:.8;color:#aaa;text-indent:15px;_filter:alpha(opacity=80);}
+.yfhd{width:300px;height:80px;clear:both;}
+.yfhd dt{width:79px;height:80px;float:left;}
+.yfhd dd{float:left;height:34px;border-left:2px solid #18b160;width:196px;margin-top:13px;padding-left:12px;color:#666;line-height:17px;_display:inline}
+.yfhd dd span{background:url(../images/kywx_list_32.jpg) no-repeat left center;padding-left:24px;color:#333;}
+.hdzt_box{overflow:hidden;}
+/*show*/
+.kywx_list_left h1{font-size:24px;}
+.form{color:#999;height:36px;line-height:30px;}
+.zhaiyao{height:71px;border:1px dashed #e0e0e0;background:#f8f8f8;color:#333;line-height:26px;padding:15px 18px 0;margin-bottom:5px;}
+.show_word p{font-size:14px;line-height:28px;padding:5px 0;}
+.show_word a{color:#e50012;}
+/*.show_word strong{font-size:14px;padding:12px 0;display:block;}*/
+#contmain{padding:40px 0 10px;clear:both;width:840px;overflow:hidden;}
+#contright{float:right;width:249px;}
+.bds_more{float:left;line-height:40px;}
+#contleft{float:left;padding-top:5px;}
+.guanzhu{padding-left:68px;background:url(../images/wbGz.jpg) no-repeat left center;line-height:30px;display:inline-block;font-weight:bold;color:#1583be;font-size:14px;}
+.cnxh{float:left;width:420px;}
+.cnxh li{line-height:30px;color:#c4c4c4;}
+.cnxh li a{font-size:14px;}
+/*about*/
+.kywx_list_zou{float:left;width:198px;border:1px solid #e2e2e2;margin-right:25px;border-top:none;padding-bottom:177px;}
+.kywx_list_zou h3{height:44px;line-height:44px;font-size:14px;background:url(../images/about_03.jpg) no-repeat 170px center #f8f8f8;padding-left:30px;border-bottom:1px solid #e2e2e2;border-top:1px solid #e2e2e2;}
+.kywx_list_zou h3 a{font-size:14px;color:#333;display:block;}
+.kywx_list_zou .zg_byy{background:url(../images/about_13.jpg) no-repeat 172px center #f8f8f8;}
+.kywx_list_zou .zg_byya{background:#f8f8f8;}
+.kywx_list_zou ul{margin-bottom:-1px;_margin-bottom:-5px;}
+.kywx_list_zou li{height:44px;line-height:44px;padding-left:30px;border-bottom:1px dashed #e2e2e2;}
+.kywx_list_zou li a{display:block;}
+.kywx_list_center{width:616px;padding-right:30px;border-right:1px solid #e2e2e2;float:left;margin-right:28px;}
+.zg_about_tit{height:49px;background:url(../images/about_09.jpg) repeat-x left bottom;margin-bottom:20px;}
+.zg_about_tit span{font-size:26px;color:#c0c0c0;background:url(../images/about_07.jpg) no-repeat left bottom;display:inline-block;height:49px;}
+.zg_about_tit font{font-size:26px;display:inline-block;height:49px;}
+.zg_about_word{font-size:14px;text-indent:28px;color:#444;line-height:28px;padding:14px 0;}
+.kcxzcon1{clear:both;}
+.kcxzcon1 dl{clear:both;position:relative;padding:15px;}
+.kcxzcon1 .zlxz_hover{clear:both;position:relative;padding:15px;background:#f7f7f7;}
+.kcxzcon1 dl dt{color:#999;margin-bottom:6px;}
+.kcxzcon1 dl dt a:hover{color:#ff6600;}
+.kcxzcon1 dl dt em{position:absolute;right:0;top:20px;font-style:normal;}
+.kcxzcon1 dl dt em a{display:inline-block;width:96px;height:28px;font-size:14px;color:#fff;background:#40bb8a;text-align:center;line-height:28px;padding:0;}
+.kcxzcon1 dl dt em a:hover{text-decoration:none;color:#fff;background:#0c7b5a;}

@@ -1,0 +1,1800 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="IT培训课程,IT培训在线课程,IT培训视频,IT培训教程">
+    <meta name="description" content="【优就业IT职业在线教育】提供互联网IT培训课程，包括：网络营销、UI设计、WEB前端、产品经理、软件开发、Office等专业的精品课程资源共享平台">
+    <title>IT培训课程-IT培训在线课程-培训-视频-教程-优就业</title>
+    <script type="text/javascript" src="public/js/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="public/js/checklogin.js"></script>-->
+    <!--<script type="text/javascript" src="public/js/outlogin.js"></script>-->
+    <script type="text/javascript" src="public/js/jquery.cookie.js"></script>
+    <link href="public/css/public.css?v=6" rel="stylesheet" type="text/css"/>
+    <link href="public/it/css/layout.css" rel="stylesheet" type="text/css"/>
+    <link href="public/it/css/skin.css" rel="stylesheet" type="text/css"/>
+    <link href="public/it/css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="public/it/css/index.css?v=11" rel="stylesheet" type="text/css"/>
+    <script language="javascript" src="public/it/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script language="javascript" src="public/js/header.js?v=2"></script>
+
+    <style>
+        .zg_uxEwm {
+            position: absolute;
+            width: 150px;
+            padding: 10px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+            top: 40px;
+            left: -40px;
+            display: none;
+        }
+
+        .zg_uxEwm dt {
+            float: left;
+            width: 80px;
+        }
+
+        .zg_uxEwm dd {
+            text-align: center;
+            font-family: 'Microsoft Yahei';
+            font-size: 14px;
+            color: #666;
+            padding-top: 15px;
+        }
+
+        .appXZ:hover .zg_uxEwm {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<!--页头-->
+<div class="offcn_head">
+    <div class="offcn_size">
+        <div class="eTop_nav">
+            <div class="eTopRight">
+                <div class="eUser">
+                    <p class="eLogin">
+                        <a href="/foreuser/login/" rel="nofollow">登录</a>
+                        <a href="/foreuser/register/" rel="nofollow">注册</a>
+                    </p>
+                    <a href="/mycourse/index/">
+                        <span id="eUserpic">
+                        <img src="public/images/dftouxiang.jpg" width="30" height="30" title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"
+                             alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </span>
+                    </a>
+                    <div class="eUserBox">
+                        <a href="/mycourse/index/" rel="nofollow">我的课程</a>
+                        <a href="/favorite/index/" rel="nofollow">我的收藏</a>
+                        <a href="/orders/myorders/" rel="nofollow">我的订单</a>
+                        <a href="/determine/relist" rel="nofollow">我的测评</a>
+                        <a href="/mycoupon/index/" rel="nofollow">我的优惠券</a>
+                        <a href="/user/index" rel="nofollow">帐号设置</a>
+                        <a onclick="outlogin();" href="javascript:;" rel="nofollow">退出登录</a>
+                    </div>
+                </div>
+                <div class="zg_index_sys">
+                    <span>&nbsp;</span>
+                    <div class="zg_index_ewm">
+                        <div class="zg_index_de">
+                            <img src="public/it/images/ujyx_16.jpg" alt="IT优学APP">
+                            <p>扫码下载<br>IT优学APP</p>
+                        </div>
+                        <div class="zg_index_de">
+                            <img src="public/it/images/ujyx_17.jpg" alt="中公优就业">
+                            <p>扫码关注<br>中公优就业</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="eTopShopCart">
+                    <a class="eTopcen" rel="nofollow" href="/shopcart/cart_to_shop/"><span
+                            id="J-shoping-num"></span></a>
+                </div>
+                <form action="/list/" method="get">
+                    <div class="eSecher eSecher1" style="width: 30px; overflow: hidden;">
+                        <div class="formInp" style="">
+                            <input type="text" name="title" class="eTxt" placeholder="搜索课程" value=""
+                                   style="display: inline-block; width: 0px; overflow: hidden;">
+                            <input type="submit" class="eSub" value="">
+                        </div>
+                        <span class="eSub02" style="display: none;"></span>
+                    </div>
+                </form>
+            </div>
+            <a class="eLogo" href="index.html">
+                <img title="优学-IT职业在线教育" src="public/it/images/logo_it.jpg" title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"
+                     alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+            </a>
+            <div class="e_nav">
+                <div class="e_nd" id="it_index_span">
+                    <a target="_self" href="index.html" class="">首页</a>
+                </div>
+                <div class="e_nd" id="it_index_jpkc">
+                    <i>&nbsp;</i>
+                    <a target="_self" href="./list.html">精品课程</a>
+                    <ul class="zg_jpkcx">
+                        <li><a href="/list/?price=2" target="_blank">免费课程</a></li>
+                        <li><a href="/list/?price=1" target="_blank">精品网课</a></li>
+                    </ul>
+                </div>
+                <div class="e_nd"><a target="_self" href="/zhibo/">在线直播</a></div>
+                <div class="e_nd"><a target="_blank" href="/ke/">IT培训班</a></div>
+                <div class="e_nd"><a target="_blank" href="http://www.ujiuye.com/">IT培训机构</a></div>
+                <div class="e_nd"><a target="_blank" href="/zt/2020zt/xthz/"
+                                     rel="nofollow">在线就业班</a></div>
+                <div class="e_nd appXZ"><a target="_blank" href="/zt/ityxapp/" rel="nofollow"
+                                           style="color:#ff4905;border:1px solid #ff4905;border-radius: 6px;">APP下载</a>
+                    <dl class="zg_uxEwm">
+                        <dt><img src="public/it/images/ujyx_16.jpg" alt="IT优学APP"></dt>
+                        <dd>扫码下载<br>IT优学APP</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="offcn_asidebg"></div>
+        <div class="offcn_aside">
+            <dl>
+                <dt><a target="_blank" href="/list-180/">互联网营销</a></dt>
+                <dd>
+                    <a target="_blank" href="/list-181/">SEO</a>
+                    <a target="_blank" href="/list-182/">SEM</a>
+                    <a target="_blank" href="/list-207/">新媒体</a>
+                    <a target="_blank" href="/list-208/">电商</a>
+                    <a target="_blank" href="/list-206/">建站</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt><a target="_blank" href="/list-187/">Web前端</a></dt>
+                <dd>
+                    <a target="_blank" href="/list-188/">HTML</a>
+                    <a target="_blank" href="/list-189/">CSS</a>
+                    <a target="_blank" href="/list-190/">JavaScript</a>
+                    <a target="_blank" href="/class-42626/">H5</a>
+                    <a target="_blank" href="/class-30888/">前端交互</a>
+                    <a target="_blank" href="/class-32568/">移动端开发</a>
+                    <a target="_blank" href="/class-34006/">React.js</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt><a target="_blank" href="/list-197/">Java开发</a></dt>
+                <dd>
+                    <a target="_blank" href="/class-23479/">基础入门</a>
+                    <a target="_blank" href="/class-46889/">算法分析</a>
+                    <a target="_blank" href="/class-43067/">微服务框架</a>
+                    <a target="_blank" href="/class-59476/">数据库入门到连接池</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt><a target="_blank" href="/list-315/">Python开发</a></dt>
+                <dd>
+                    <a target="_blank" href="/class-26721/">基础入门</a>
+                    <a target="_blank" href="/class-45177/">网络爬虫</a>
+                    <a target="_blank" href="/class-71911/">机器学习</a>
+                    <a target="_blank" href="/class-72195/">Python全栈开发</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt><a target="_blank" href="/list-191/">全链路UI/ UE交互设计</a></dt>
+                <dd>
+                    <a target="_blank" href="/list-273/">软件基础</a>
+                    <a target="_blank" href="/list-194/">平面设计</a>
+                    <a target="_blank" href="/list-192/">网页设计</a>
+                    <a target="_blank" href="/list-272/">移动UI设计</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt><a target="_blank" href="/list-195/">程序开发</a></dt>
+                <dd>
+                    <a target="_blank" href="/list-279/">软件测试</a>
+                    <a target="_blank" href="/list-316/">Linux云计算</a>
+                    <a target="_blank" href="/list-421/">大数据开发</a>
+                    <a target="_blank" href="/list-387/">Unity游戏开发+VR/AR</a>
+                    <a target="_blank" href="/list-196/">PHP</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt><a target="_blank" href="/list-700/">计算机证书</a></dt>
+                <dd>
+                    <a target="_blank" href="/list-338/">计算机二级</a>
+                    <a target="_blank" href="/list-703/?kj_zhibo=1">PMP</a>
+                    <a target="_blank" href="/list-700/?kj_zhibo=1">计算机软考</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt><a target="_blank" href="/list/">其它课程</a></dt>
+                <dd>
+                    <a target="_blank" href="/list-199/">Office办公软件</a>
+                    <a target="_blank" href="/list-203/">求职面试技巧</a>
+                    <a target="_blank" href="/list-418/">BIM</a>
+                    <a target="_blank" href="/list-879/">三维可视化</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+<!--广告Banner-->
+
+<div class="zg_ban">
+    <div class="bd">
+        <ul>
+            <li style="background:url(uploads_it/2008/QuanGuo/F8E2145460020JGF.jpg) no-repeat center top;">
+                <a href="/class-167859/?scode=8cQBrrglRx-wz" target="_blank"></a>
+            </li>
+            <li style="background:url(uploads_it/2007/QuanGuo/F7F2019657532ORB.jpg) no-repeat center top;">
+                <a href="/zt/2020zt/xthz/" target="_blank"></a>
+            </li>
+            <li style="background:url(uploads_it/1911/QuanGuo/EB110319475096V7.jpg) no-repeat center top;">
+                <a href="/zt/ityxapp/" target="_blank"></a>
+            </li>
+            <li style="background:url(uploads_it/2005/QuanGuo/F5J545534512ASRU.jpg) no-repeat center top;">
+                <a href="/class-141128/?scode=8cQBrrglRx-wz" target="_blank"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="hd">
+        <ul></ul>
+        <a class="next zg_next zg_banjt">></a>
+        <a class="prev zg_prev zg_banjt"><</a>
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(".zg_ban").slide({
+        titCell: ".hd ul",
+        mainCell: ".bd ul",
+        autoPage: true,
+        effect: "left",
+        autoPlay: true,
+        vis: 1,
+        trigger: "click"
+    });
+</script>
+
+
+<div class="zg_main">
+
+<!--    顶栏模块-->
+    <div class="zg_banb">
+        <ul>
+            <li class="l1">
+                <a href="https://jq.qq.com/?_wv=1027&k=5kncMvk">
+                    <img src="uploads_it/1911/QuanGuo/EBD2136468178FO3.jpg" title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"
+                         alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"/>
+                </a>
+            </li>
+            <li class="l1">
+                <a href="/zt/ityxapp/">
+                    <img src="uploads_it/1911/QuanGuo/EBD9574228806KKV.jpg" title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"
+                         alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"/>
+                </a>
+            </li>
+            <li class="l1">
+                <a href="/ce/">
+                    <img src="uploads_it/1911/QuanGuo/EBD178120205340A.jpg" title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"
+                         alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"/>
+                </a>
+            </li>
+            <li class="l1">
+                <a href="/list/?price=2">
+                    <img src="uploads_it/2003/QuanGuo/F3R74632989PIUNL.jpg" title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"
+                         alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"/>
+                </a>
+            </li>
+        </ul>
+    </div>
+<!--    热门直播-->
+    <div class="zg_rmzb">
+        <div class="zg_zbbt">
+            <p><a href="/list/?kj_zhibo=1">更多</a></p>
+            <h3><a href="javascript:;">热门直播</a></h3>
+        </div>
+        <div class="zg_zbbox">
+            <div class="zg_zbbl" id="zg_zbbl">
+                <div class="zg_zbzt" style="display: none;"><a href="/class-156618/" target="_blank">&nbsp;</a><img
+                        src="uploads_it/2008/QuanGuo/F8C2050112761PTT.jpg?x-oss-process=image/resize,w_620"><span
+                        class="zg_zbzt_sp zg_zbzt_wks"><font>未开始</font></span>
+                    <p>电商玩法解析与答疑6</p></div>
+                <div class="zg_zbzt" style="display: none;"><a href="/class-146990/" target="_blank">&nbsp;</a><img
+                        src="uploads_it/2005/QuanGuo/F5T91763899RHRQR.jpg?x-oss-process=image/resize,w_620"><span
+                        class="zg_zbzt_sp zg_zbzt_wks"><font>未开始</font></span>
+                    <p>NumPy科学计算库</p></div>
+                <div class="zg_zbzt" style="display: none;"><a href="/class-140594/" target="_blank">&nbsp;</a><img
+                        src="uploads_it/2006/QuanGuo/F682091147347RZY.jpg?x-oss-process=image/resize,w_620"><span
+                        class="zg_zbzt_sp zg_zbzt_wks"><font>未开始</font></span>
+                    <p>社群运营的秘密武器</p></div>
+                <div class="zg_zbzt" style="display: none;"><a href="/class-107110/" target="_blank">&nbsp;</a><img
+                        src="uploads_it/2003/QuanGuo/F3D487414790VLVN.jpg?x-oss-process=image/resize,w_620"><span
+                        class="zg_zbzt_sp zg_zbzt_wks"><font>未开始</font></span>
+                    <p>直播课四：项目10大知识领域专题三</p></div>
+                <div class="zg_zbzt" style="display: block;"><a href="/class-114747/" target="_blank">&nbsp;</a><img
+                        src="uploads_it/2007/QuanGuo/F799486143329XHO.jpg?x-oss-process=image/resize,w_620"><span
+                        class="zg_zbzt_sp zg_zbzt_wks"><font>未开始</font></span>
+                    <p>直播课四：项目10大知识领域专题三</p></div>
+                <div class="zg_zbzt" style="display: none;"><a href="/class-162321/" target="_blank">&nbsp;</a><img
+                        src="uploads_it/2007/QuanGuo/F791160890579UTM.jpg?x-oss-process=image/resize,w_620"><span
+                        class="zg_zbzt_sp zg_zbzt_wks"><font>未开始</font></span>
+                    <p>直播课四：项目10大知识领域专题三</p></div>
+                <div class="zg_zbzt" style="display: none;"><a href="/class-107138/" target="_blank">&nbsp;</a><img
+                        src="uploads_it/2007/QuanGuo/F791882217657L9L.jpg?x-oss-process=image/resize,w_620"><span
+                        class="zg_zbzt_sp zg_zbzt_wks"><font>未开始</font></span>
+                    <p>直播课四：项目10大知识领域专题三</p></div>
+                <div class="zg_zbzt" style="display: none;"><a href="/class-162320/" target="_blank">&nbsp;</a><img
+                        src="uploads_it/2007/QuanGuo/F791760637720TCO.jpg?x-oss-process=image/resize,w_620"><span
+                        class="zg_zbzt_sp zg_zbzt_wks"><font>未开始</font></span>
+                    <p>直播课四：项目10大知识领域专题三</p></div>
+                <div class="zg_zbzt" style="display: none;"><a href="/class-142991/" target="_blank">&nbsp;</a><img
+                        src="uploads_it/2005/QuanGuo/F5J588091928ZQP6.jpg?x-oss-process=image/resize,w_620"><span
+                        class="zg_zbzt_sp zg_zbzt_wks"><font>未开始</font></span>
+                    <p>学员项目案例评讲（二）+深度学习前沿技术简介</p></div>
+                <div class="zg_zbzt" style="display: none;"><a href="/class-131138/" target="_blank">&nbsp;</a><img
+                        src="uploads_it/2005/QuanGuo/F561019341759NPY.jpg?x-oss-process=image/resize,w_620"><span
+                        class="zg_zbzt_sp zg_zbzt_wks"><font>未开始</font></span>
+                    <p>信息流页面策划要点</p></div>
+            </div>
+
+            <div class="zg_zbbr">
+
+                <div class="scroll-pane" style="overflow: hidden; padding: 0px; width: 580px;">
+                    <div class="jspContainer" style="width: 580px; height: 350px;">
+                        <div class="jspPane" style="padding: 0px; top: 0px; width: 580px;">
+                            <ul id="scroll-pane">
+                                <li class="">
+                                    <div class="zg_zbrzt zg_zbr_wks"><span>2020-08-25 19:00:00</span></div>
+                                    <h6><a href="/class-156618/" target="_blank">电商玩法解析与答疑6</a></h6>
+                                </li>
+                                <li>
+                                    <div class="zg_zbrzt zg_zbr_wks"><span>2020-08-25 19:00:00</span></div>
+                                    <h6><a href="/class-146990/" target="_blank">NumPy科学计算库</a></h6>
+                                </li>
+                                <li>
+                                    <div class="zg_zbrzt zg_zbr_wks"><span>2020-08-25 19:00:00</span></div>
+                                    <h6><a href="/class-140594/" target="_blank">社群运营的秘密武器</a></h6>
+                                </li>
+                                <li>
+                                    <div class="zg_zbrzt zg_zbr_wks"><span>2020-08-25 19:30:00</span></div>
+                                    <h6><a href="/class-107110/" target="_blank">直播课四：项目10大知识领域专题三</a></h6>
+                                </li>
+                                <li class="on">
+                                    <div class="zg_zbrzt zg_zbr_wks"><span>2020-08-25 19:30:00</span></div>
+                                    <h6><a href="/class-114747/" target="_blank">直播课四：项目10大知识领域专题三</a></h6>
+                                </li>
+                                <li class="">
+                                    <div class="zg_zbrzt zg_zbr_wks"><span>2020-08-25 19:30:00</span></div>
+                                    <h6><a href="/class-162321/" target="_blank">直播课四：项目10大知识领域专题三</a></h6>
+                                </li>
+                                <li>
+                                    <div class="zg_zbrzt zg_zbr_wks"><span>2020-08-25 19:30:00</span></div>
+                                    <h6><a href="/class-107138/" target="_blank">直播课四：项目10大知识领域专题三</a></h6>
+                                </li>
+                                <li>
+                                    <div class="zg_zbrzt zg_zbr_wks"><span>2020-08-25 19:30:00</span></div>
+                                    <h6><a href="/class-162320/" target="_blank">直播课四：项目10大知识领域专题三</a></h6>
+                                </li>
+                                <li>
+                                    <div class="zg_zbrzt zg_zbr_wks"><span>2020-08-26 19:00:00</span></div>
+                                    <h6><a href="/class-142991/" target="_blank">学员项目案例评讲（二）+深度学习前沿技术简介</a></h6>
+                                </li>
+                                <li>
+                                    <div class="zg_zbrzt zg_zbr_wks"><span>2020-08-26 19:00:00</span></div>
+                                    <h6><a href="/class-131138/" target="_blank">信息流页面策划要点</a></h6>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    精品网课-->
+    <div class="zg_jpkc">
+        <div class="zg_jpkbt">
+            <a href="/list/?price=1" target="_blank" class="zg_jpbta">更多</a>
+            <ul class="zg_jpnav">
+                <li class="zg_jpn11">精品网课</li>
+                <li><a href="/list-180/?price=1" target="_blank">互联网营销</a></li>
+                <li><a href="/list-191/?price=1" target="_blank">设计</a></li>
+                <li><a href="/list-187/?price=1" target="_blank">Web前端</a></li>
+                <li><a href="/list-195/?price=1" target="_blank">程序开发</a></li>
+                <li><a href="/list-199/?price=1" target="_blank">Office</a></li>
+            </ul>
+        </div>
+        <div class="zg_jpbox">
+            <ul class="zg_jpkcu" style="display: block;">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-165633/">
+                            <img src="uploads_it/2007/QuanGuo/F7N1235351504UMS.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-165633/">
+                            【基础】微信视频号运营技巧 短视频赚钱新风口 </a>
+                    </h6>
+                    <p>
+                        <span>1课时</span>
+                        <font><i>￥</i>1.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-173075/">
+                            <img src="uploads_it/2008/QuanGuo/F8D195586552WOXF.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-173075/">
+                            计算机二级Office【全年VIP会员】 </a>
+                    </h6>
+                    <p>
+                        <span>100课时</span>
+                        <font><i>￥</i>399.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-149285/">
+                            <img src="uploads_it/2006/QuanGuo/F651460955154B5F.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-149285/">
+                            【系统】Web大前端在线就业班 </a>
+                    </h6>
+                    <p>
+                        <span>285课时</span>
+                        <font><i>￥</i>15960.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-149290/">
+                            <img src="uploads_it/2006/QuanGuo/F6516670696290IX.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-149290/">
+                            【系统】Python全栈+人工智能在线就业班 </a>
+                    </h6>
+                    <p>
+                        <span>253课时</span>
+                        <font><i>￥</i>16660.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-140594/">
+                            <img src="uploads_it/2006/QuanGuo/F682091147347RZY.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-140594/">
+                            【进阶】【直播】抖音自媒体电商+私域流量变现 </a>
+                    </h6>
+                    <p>
+                        <span>16课时</span>
+                        <font><i>￥</i>2399.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-150583/">
+                            <img src="uploads_it/2007/QuanGuo/F77808376452UR70.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-150583/">
+                            【直播+录播】SEO与网站运营实战-网站建设与优化实操演练 </a>
+                    </h6>
+                    <p>
+                        <span>56课时</span>
+                        <font><i>￥</i>2999.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-131138/">
+                            <img src="uploads_it/2005/QuanGuo/F561019341759NPY.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-131138/">
+                            【直播+录播】SEM与信息流精准投放-策略班 </a>
+                    </h6>
+                    <p>
+                        <span>34课时</span>
+                        <font><i>￥</i>3999.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-141128/">
+                            <img src="uploads_it/2008/QuanGuo/F8C600053235HMZH.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-141128/">
+                            【直播+录播】平面视觉设计 </a>
+                    </h6>
+                    <p>
+                        <span>73课时</span>
+                        <font><i>￥</i>2399.00</font>
+                    </p>
+                </li>
+            </ul>
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-165633/">
+                            <img src="uploads_it/2007/QuanGuo/F7N1235351504UMS.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-165633/">
+                            【基础】微信视频号运营技巧 短视频赚钱新风口 </a>
+                    </h6>
+                    <p>
+                        <span>1课时</span>
+                        <font><i>￥</i>1.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-140594/">
+                            <img src="uploads_it/2006/QuanGuo/F682091147347RZY.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-140594/">
+                            【进阶】【直播】抖音自媒体电商+私域流量变现 </a>
+                    </h6>
+                    <p>
+                        <span>16课时</span>
+                        <font><i>￥</i>2399.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-150583/">
+                            <img src="uploads_it/2007/QuanGuo/F77808376452UR70.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-150583/">
+                            【直播+录播】SEO与网站运营实战-网站建设与优化实操演练 </a>
+                    </h6>
+                    <p>
+                        <span>56课时</span>
+                        <font><i>￥</i>2999.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-131138/">
+                            <img src="uploads_it/2005/QuanGuo/F561019341759NPY.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-131138/">
+                            【直播+录播】SEM与信息流精准投放-策略班 </a>
+                    </h6>
+                    <p>
+                        <span>34课时</span>
+                        <font><i>￥</i>3999.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-167859/">
+                            <img src="uploads_it/2008/QuanGuo/F8B1953308568YG4.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-167859/">
+                            【直播】淘宝商家短视频转化实操 布局公私域流量 </a>
+                    </h6>
+                    <p>
+                        <span>10课时</span>
+                        <font><i>￥</i>9.90</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-156618/">
+                            <img src="uploads_it/2008/QuanGuo/F8C2050112761PTT.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-156618/">
+                            【进阶】【直播+录播】电商运营与创业实战训练营-店铺装修-选品-推广-优化 </a>
+                    </h6>
+                    <p>
+                        <span>35课时</span>
+                        <font><i>￥</i>2999.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-154509/">
+                            <img src="uploads_it/2006/QuanGuo/F6I87435883588OS.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-154509/">
+                            【系统】全域电商运营在线就业班 </a>
+                    </h6>
+                    <p>
+                        <span>107课时</span>
+                        <font><i>￥</i>11760.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-158868/">
+                            <img src="uploads_it/2008/QuanGuo/F83976795382QFHJ.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-158868/">
+                            【系统】互联网营销在线就业班 </a>
+                    </h6>
+                    <p>
+                        <span>129课时</span>
+                        <font><i>￥</i>14560.00</font>
+                    </p>
+                </li>
+            </ul>
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-141128/">
+                            <img src="uploads_it/2008/QuanGuo/F8C600053235HMZH.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-141128/">
+                            【直播+录播】平面视觉设计 </a>
+                    </h6>
+                    <p>
+                        <span>73课时</span>
+                        <font><i>￥</i>2399.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-147675/">
+                            <img src="uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-147675/">
+                            【系统】全链路UI/UE设计 </a>
+                    </h6>
+                    <p>
+                        <span>182课时</span>
+                        <font><i>￥</i>17010.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-103250/">
+                            <img src="uploads_it/2008/QuanGuo/F8C1551585033YP3.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-103250/">
+                            【基础】UI训练营：14天学习设计必备技能 </a>
+                    </h6>
+                    <p>
+                        <span>14课时</span>
+                        <font><i>￥</i>29.90</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-157192/">
+                            <img src="uploads_it/2007/QuanGuo/F7U112977279WYNG.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-157192/">
+                            【培优】全链路UI设计之电商视觉设计 </a>
+                    </h6>
+                    <p>
+                        <span>50课时</span>
+                        <font><i>￥</i>4999.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-160446/">
+                            <img src="uploads_it/2007/QuanGuo/F7S1730225486BHY.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-160446/">
+                            【培优】UI交互设计 </a>
+                    </h6>
+                    <p>
+                        <span>59课时</span>
+                        <font><i>￥</i>4999.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-167372/">
+                            <img src="uploads_it/2007/QuanGuo/F7S1511435579ZGR.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-167372/">
+                            【培优】名企项目实战进阶 </a>
+                    </h6>
+                    <p>
+                        <span>81课时</span>
+                        <font><i>￥</i>4999.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-103811/">
+                            <img src="uploads_it/2003/QuanGuo/F3U946900086SNJP.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-103811/">
+                            【培优】全链路UI设计之视觉传达 掌握基础设计软件操作 </a>
+                    </h6>
+                    <p>
+                        <span>68课时</span>
+                        <font><i>￥</i>499.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-113995/">
+                            <img src="uploads_it/2003/QuanGuo/F3B1239147327DN0.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-113995/">
+                            【基础】商业手绘插画设计 让人物在你笔下活起来 </a>
+                    </h6>
+                    <p>
+                        <span>39课时</span>
+                        <font><i>￥</i>299.00</font>
+                    </p>
+                </li>
+            </ul>
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-149285/">
+                            <img src="uploads_it/2006/QuanGuo/F651460955154B5F.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-149285/">
+                            【系统】Web大前端在线就业班 </a>
+                    </h6>
+                    <p>
+                        <span>285课时</span>
+                        <font><i>￥</i>15960.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-137437/">
+                            <img src="uploads_it/2005/QuanGuo/F5Q881378921ZTAF.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-137437/">
+                            【培优】打造Web前端工程师-JS交互设计 </a>
+                    </h6>
+                    <p>
+                        <span>182课时</span>
+                        <font><i>￥</i>3199.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-158909/">
+                            <img src="uploads_it/2007/QuanGuo/F737777444542MUJ.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-158909/">
+                            【在线】H5+小程序+APP多位一体 Web前端在线系统班 </a>
+                    </h6>
+                    <p>
+                        <span>348课时</span>
+                        <font><i>￥</i>2999.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-75806/">
+                            <img src="uploads_it/2003/QuanGuo/F3V2096426999TCB.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-75806/">
+                            【进阶】Web小程序开发基础到项目搭建 制作家常菜小程序 </a>
+                    </h6>
+                    <p>
+                        <span>46课时</span>
+                        <font><i>￥</i>99.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-96052/">
+                            <img src="uploads_it/2001/QuanGuo/F1G695156790NZUF.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-96052/">
+                            【高级】React16+Redux企业级实战项目 </a>
+                    </h6>
+                    <p>
+                        <span>97课时</span>
+                        <font><i>￥</i>599.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-59471/">
+                            <img src="uploads_it/2003/QuanGuo/F3V3658686755UE6.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-59471/">
+                            【进阶】Web前端基础+小程序开发 快速制作网站页面 </a>
+                    </h6>
+                    <p>
+                        <span>39课时</span>
+                        <font><i>￥</i>399.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-161894/">
+                            <img src="uploads_it/2007/QuanGuo/F7O1020037624GOF.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-161894/">
+                            【培优】Vue+React精讲+项目实战 </a>
+                    </h6>
+                    <p>
+                        <span>154课时</span>
+                        <font><i>￥</i>4999.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-136820/">
+                            <img src="uploads_it/2006/QuanGuo/F6T571380173XF3X.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-136820/">
+                            【培优】打造Web前端工程师-Node开发及商城后台管理项目 </a>
+                    </h6>
+                    <p>
+                        <span>59课时</span>
+                        <font><i>￥</i>4999.00</font>
+                    </p>
+                </li>
+            </ul>
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-149290/">
+                            <img src="uploads_it/2006/QuanGuo/F6516670696290IX.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-149290/">
+                            【系统】Python全栈+人工智能在线就业班 </a>
+                    </h6>
+                    <p>
+                        <span>253课时</span>
+                        <font><i>￥</i>16660.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-146990/">
+                            <img src="uploads_it/2005/QuanGuo/F5T91763899RHRQR.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-146990/">
+                            基于Python数据分析模块的使用来完成电影数据分析项目实战 </a>
+                    </h6>
+                    <p>
+                        <span>10课时</span>
+                        <font><i>￥</i>59.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-142991/">
+                            <img src="uploads_it/2005/QuanGuo/F5J588091928ZQP6.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-142991/">
+                            【高级】AI深度学习 </a>
+                    </h6>
+                    <p>
+                        <span>76课时</span>
+                        <font><i>￥</i>3999.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-129734/">
+                            <img src="uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-129734/">
+                            【培优】JavaWeb开发 从前端到后台及小米商城实战 </a>
+                    </h6>
+                    <p>
+                        <span>207课时</span>
+                        <font><i>￥</i>2999.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-149697/">
+                            <img src="uploads_it/2006/QuanGuo/F651190997082LCB.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-149697/">
+                            【系统】全栈式Java开发软件工程师 </a>
+                    </h6>
+                    <p>
+                        <span>500课时</span>
+                        <font><i>￥</i>16660.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-156675/">
+                            <img src="uploads_it/2006/QuanGuo/F6T1800363583JFC.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-156675/">
+                            【培优】深挖Java高级框架原理 掌握框架搭建流程 </a>
+                    </h6>
+                    <p>
+                        <span>300课时</span>
+                        <font><i>￥</i>4999.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-154392/">
+                            <img src="uploads_it/2007/QuanGuo/F7M204460952FMTL.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-154392/">
+                            【培优】Unity+VR/AR游戏开发 掌握Unity引擎基础原理 </a>
+                    </h6>
+                    <p>
+                        <span>54课时</span>
+                        <font><i>￥</i>3999.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-158654/">
+                            <img src="uploads_it/2006/QuanGuo/F6U22988714DUJDB.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-158654/">
+                            【培优】大型微服务分布式项目实战 搭建优乐选网上商城 </a>
+                    </h6>
+                    <p>
+                        <span>300课时</span>
+                        <font><i>￥</i>5699.00</font>
+                    </p>
+                </li>
+            </ul>
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-5381/">
+                            <img src="uploads_it/1911/QuanGuo/EBN1706380679URB.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-5381/">
+                            【基础】PPT软件的操作 </a>
+                    </h6>
+                    <p>
+                        <span>30课时</span>
+                        <font><i>￥</i>159.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-3923/">
+                            <img src="uploads_it/1911/QuanGuo/EBN17200907ZQCXH.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-3923/">
+                            【基础】办公必备技能之Excel软件操作 </a>
+                    </h6>
+                    <p>
+                        <span>50课时</span>
+                        <font><i>￥</i>199.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-158070/">
+                            <img src="uploads_it/2006/QuanGuo/F6U1605644137MNF.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-158070/">
+                            【基础】高效利器—人人都要学的office办公软件 </a>
+                    </h6>
+                    <p>
+                        <span>87课时</span>
+                        <font><i>￥</i>299.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-6797/">
+                            <img src="uploads_it/2006/QuanGuo/F6U250881697BZCD.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-6797/">
+                            【基础】Office办公软件“三剑客” 玩转表姐、Word哥、屁屁踢！ </a>
+                    </h6>
+                    <p>
+                        <span>114课时</span>
+                        <font><i>￥</i>299.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-4586/">
+                            <img src="uploads_it/1911/QuanGuo/EBN141085373WXZP.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-4586/">
+                            【基础】办公必备技能之Word软件操作 </a>
+                    </h6>
+                    <p>
+                        <span>32课时</span>
+                        <font><i>￥</i>99.00</font>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!--    免费课程-->
+    <div class="zg_jpkc">
+        <div class="zg_jpkbt">
+            <a href="/list/?price=2" target="_blank" class="zg_jpbta">更多</a>
+            <ul class="zg_jpnav">
+                <li class="zg_jpn11">免费课程</li>
+                <li><a href="/list-180/?price=2" target="_blank">互联网营销</a></li>
+                <li><a href="/list-191/?price=2" target="_blank">设计</a></li>
+                <li><a href="/list-187/?price=2" target="_blank">Web前端</a></li>
+                <li><a href="/list-195/?price=2" target="_blank">程序开发</a></li>
+            </ul>
+        </div>
+        <div class="zg_jpbox zg_jpbox1">
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-164097/">
+                            <img src="uploads_it/2007/QuanGuo/F7F984267649NVG0.png?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-164097/">
+                            深度学习2大核心算法详解与实战 </a>
+                    </h6>
+                    <p>
+                        <span>4课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-145946/">
+                            <img src="uploads_it/2006/QuanGuo/F6A2060592024EIL.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-145946/">
+                            每天1小时-系列精品直播课 </a>
+                    </h6>
+                    <p>
+                        <span>14课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-146627/">
+                            <img src="uploads_it/2005/QuanGuo/F5S760080480RAPL.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-146627/">
+                            AI深度学习【试听】-中科院公开课 </a>
+                    </h6>
+                    <p>
+                        <span>6课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-160725/">
+                            <img src="uploads_it/2007/QuanGuo/F76415611000BZKO.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-160725/">
+                            【直播】计算机二级-备考解析会 </a>
+                    </h6>
+                    <p>
+                        <span>6课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+            </ul>
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-132915/">
+                            <img src="uploads_it/2004/QuanGuo/F4N345748433EPWB.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-132915/">
+                            【基础】手把手教你开通淘宝店铺 </a>
+                    </h6>
+                    <p>
+                        <span>7课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-132910/">
+                            <img src="uploads_it/2004/QuanGuo/F4N1298456284UKS.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-132910/">
+                            【基础】SEM账户数据精准分析推广优化 </a>
+                    </h6>
+                    <p>
+                        <span>6课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-129786/">
+                            <img src="uploads_it/2004/QuanGuo/F4G12969250658R4.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-129786/">
+                            【基础】5节课带你玩转社群营销 </a>
+                    </h6>
+                    <p>
+                        <span>5课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-85416/">
+                            <img src="uploads_it/2003/QuanGuo/F3U987691008MR4D.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-85416/">
+                            【基础】SEO基础入门-SEO概念与核心优化方式 </a>
+                    </h6>
+                    <p>
+                        <span>22课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+            </ul>
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-129073/">
+                            <img src="uploads_it/2004/QuanGuo/F4L1971580257HYN.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-129073/">
+                            PS基础图层样式养成记 </a>
+                    </h6>
+                    <p>
+                        <span>7课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-164773/">
+                            <img src="uploads_it/2007/QuanGuo/F7V1480445536D1Q.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-164773/">
+                            UI界面网页设计之规范设计 </a>
+                    </h6>
+                    <p>
+                        <span>7课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-169738/">
+                            <img src="uploads_it/2008/QuanGuo/F832050616522N9J.png?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-169738/">
+                            PS技能学习训练营 </a>
+                    </h6>
+                    <p>
+                        <span>5课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-129056/">
+                            <img src="uploads_it/2004/QuanGuo/F4L1369113291CIY.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-129056/">
+                            教你精准掌握PS修图与调色 </a>
+                    </h6>
+                    <p>
+                        <span>4课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+            </ul>
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-91339/">
+                            <img src="uploads_it/2003/QuanGuo/F3V12588814260WO.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-91339/">
+                            【案例】前端经典案例-用HTML+CSS3制作跳动的心 </a>
+                    </h6>
+                    <p>
+                        <span>7课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-113735/">
+                            <img src="uploads_it/2003/QuanGuo/F3B322854856WEC6.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-113735/">
+                            【基础】Web前端重点详解 彻底搞懂浮动、定位与动画 </a>
+                    </h6>
+                    <p>
+                        <span>6课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-31486/">
+                            <img src="uploads_it/2004/QuanGuo/F4A1016407139PD9.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-31486/">
+                            【基础】Web前端的CSS3背景设置及布局 </a>
+                    </h6>
+                    <p>
+                        <span>4课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-129891/">
+                            <img src="uploads_it/2004/QuanGuo/F4G1305730321IXR.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-129891/">
+                            【科普】Web前端基本概述及入门讲解 </a>
+                    </h6>
+                    <p>
+                        <span>3课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+            </ul>
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-76357/">
+                            <img src="uploads_it/2003/QuanGuo/F3V1935408180JXT.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-76357/">
+                            【基础】Java开发基础之MySQL数据库的基础操作 </a>
+                    </h6>
+                    <p>
+                        <span>9课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-96058/">
+                            <img src="uploads_it/2003/QuanGuo/F3V432007500W1MT.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-96058/">
+                            【基础】Java开发基础之由HTML入门JavaWeb </a>
+                    </h6>
+                    <p>
+                        <span>8课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-96060/">
+                            <img src="uploads_it/2003/QuanGuo/F3V1422661772IMR.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-96060/">
+                            【基础】Java开发基础之领略数组的魅力 </a>
+                    </h6>
+                    <p>
+                        <span>8课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-22853/">
+                            <img src="uploads_it/2004/QuanGuo/F4A2027412848C8X.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-22853/">
+                            【科普】Python+人工智能 追赶编程开发新趋势 </a>
+                    </h6>
+                    <p>
+                        <span>8课时</span>
+                        <font><i>￥</i>0.00</font>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!--    就业面授班-->
+    <div class="zg_jpkc">
+        <div class="zg_jpkbt">
+            <a href="/list/?kj_mianshou=1" target="_blank" class="zg_jpbta">更多</a>
+            <ul class="zg_jpnav">
+                <li class="zg_jpn11">就业面授班</li>
+                <li><a href="/list-180/?kj_mianshou=1" target="_blank">互联网营销</a></li>
+                <li><a href="/list-197/?kj_mianshou=1" target="_blank">Java</a></li>
+                <li><a href="/list-421/?kj_mianshou=1" target="_blank">大数据开发</a></li>
+                <li><a href="/list-279/?kj_mianshou=1" target="_blank">软件测试</a></li>
+            </ul>
+        </div>
+        <div class="zg_jpbox zg_jpbox1">
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-86119/">
+                            <img src="uploads_it/1912/QuanGuo/EC61192126233R7W.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-86119/">
+                            【面授】电商运营学习计划 </a>
+                    </h6>
+                    <p>
+                        <span>0</span>
+                        <font><i>￥</i>16800.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-6623/">
+                            <img src="uploads_it/1912/QuanGuo/EC51408336442DD4.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-6623/">
+                            【面授】Java开发学习计划 </a>
+                    </h6>
+                    <p>
+                        <span>0</span>
+                        <font><i>￥</i>23800.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-10301/">
+                            <img src="uploads_it/1912/QuanGuo/EC5661037665C3BH.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-10301/">
+                            【面授】软件测试面授课程 </a>
+                    </h6>
+                    <p>
+                        <span>0</span>
+                        <font><i>￥</i>20800.00</font>
+                    </p>
+                </li>
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-22965/">
+                            <img src="uploads_it/1912/QuanGuo/EC5350925938GLEZ.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-22965/">
+                            【面授】Java大数据开发计划 </a>
+                    </h6>
+                    <p>
+                        <span>0</span>
+                        <font><i>￥</i>24800.00</font>
+                    </p>
+                </li>
+            </ul>
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-86119/">
+                            <img src="uploads_it/1912/QuanGuo/EC61192126233R7W.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-86119/">
+                            【面授】电商运营学习计划 </a>
+                    </h6>
+                    <p>
+                        <span>0</span>
+                        <font><i>￥</i>16800.00</font>
+                    </p>
+                </li>
+            </ul>
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-6623/">
+                            <img src="uploads_it/1912/QuanGuo/EC51408336442DD4.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-6623/">
+                            【面授】Java开发学习计划 </a>
+                    </h6>
+                    <p>
+                        <span>0</span>
+                        <font><i>￥</i>23800.00</font>
+                    </p>
+                </li>
+            </ul>
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-22965/">
+                            <img src="uploads_it/1912/QuanGuo/EC5350925938GLEZ.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-22965/">
+                            【面授】Java大数据开发计划 </a>
+                    </h6>
+                    <p>
+                        <span>0</span>
+                        <font><i>￥</i>24800.00</font>
+                    </p>
+                </li>
+            </ul>
+            <ul class="zg_jpkcu">
+                <li>
+                    <div class="zg_jpkclt">
+                        <a href="/class-10301/">
+                            <img src="uploads_it/1912/QuanGuo/EC5661037665C3BH.jpg?x-oss-process=image%252Fresize,w_285"
+                                 title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+                        </a>
+                    </div>
+                    <h6>
+                        <a href="/class-10301/">
+                            【面授】软件测试面授课程 </a>
+                    </h6>
+                    <p>
+                        <span>0</span>
+                        <font><i>￥</i>20800.00</font>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!--    底栏模块-->
+    <div class="zg_dpt">
+        <h3>支持电脑、手机、PAD多平台学习</h3>
+        <ul class="zg_dptu">
+            <li class="l1">
+                <h6>支持苹果、安卓所有设备</h6>
+                <p>优学在线课程均可同到移动端，支持苹果和安卓主流设备</p>
+            </li>
+            <li class="l2">
+                <h6>APP支持离线，随时学</h6>
+                <p>优学在线课程均可同到移动端，支持苹果和安卓主流设备</p>
+            </li>
+            <li class="l3">
+                <h6>直播、录播多种学习方式</h6>
+                <p>既有直播互动课程，也有录播视频，适配不同需求</p>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<!--应用下载-->
+
+<div class="zg_main2">
+    <div class="ujy_app">
+        <img src="public/it/images/ujyx_12.jpg" title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业">
+        <div class="ujy_ewm">
+            <div><img src="public/it/images/ujyx_26.jpg" title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"
+                      alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"></div>
+            <p>扫描二维码<br>快速下载应用</p>
+        </div>
+    </div>
+    <dl class="zgn_yqlj">
+        <dt><span class="on">IT培训</span><span>友情链接</span></dt>
+        <dd>
+            <a href="http://www.ujiuye.com/zt/kchzjz/" target="_blank" rel="nofollow">IT培训</a>
+            <a href="http://www.ujiuye.com/zt/rjcsjz/" target="_blank" rel="nofollow">软件测试培训</a>
+            <a href="http://www.ujiuye.com/zt/hlwyx/" target="_blank" rel="nofollow">网络营销培训</a>
+            <a href="http://www.ujiuye.com/zt/dsj/" target="_blank" rel="nofollow">大数据培训</a>
+            <a href="http://www.ujiuye.com/zt/javaqz/" target="_blank" rel="nofollow">java培训</a>
+            <a href="http://www.ujiuye.com/zt/webqzgcs/" target="_blank" rel="nofollow">web前端培训</a>
+            <a href="http://www.ujiuye.com/zt/uijh/" target="_blank" rel="nofollow">ui交互培训</a>
+            <a href="http://www.ujiuye.com/zt/python/" target="_blank" rel="nofollow">python培训</a>
+            <a href="http://www.ujiuye.com/zt/phpkf/" target="_blank" rel="nofollow">php培训</a>
+            <a href="http://www.ujiuye.com/zt/sjfx/" target="_blank" rel="nofollow">数据分析培训</a>
+            <a href="http://www.ujiuye.com/zt/wxxcx/" target="_blank" rel="nofollow">微信小程序开发培训</a>
+            <a href="http://www.ujiuye.com/zt/linux/" target="_blank" rel="nofollow">linux培训</a>
+            <a href="http://www.ujiuye.com/zt/phpkf/" target="_blank" rel="nofollow">php培训</a>
+            <a href="http://www.ujiuye.com/zt/qrs/" target="_blank" rel="nofollow">嵌入式培训</a>
+            <a href="http://www.ujiuye.com/zt/seoshizhan/" target="_blank" rel="nofollow">seo培训</a>
+            <a href="http://www.ujiuye.cn/zt/semshizhan/" target="_blank" rel="nofollow">sem培训</a>
+            <a href="http://www.ujiuye.com/zt/smmshizhan/" target="_blank" rel="nofollow">新媒体营销培训</a>
+            <a href="http://www.ujiuye.com/zt/dianshang/" target="_blank" rel="nofollow">电商运营培训</a>
+            <a href="http://www.ujiuye.com/zt/zzb/" target="_blank" rel="nofollow">零基础it培训</a>
+            <a href="http://www.ujiuye.com/zt/unity/" target="_blank" rel="nofollow">unity培训</a>
+            <a href="http://www.ujiuye.com/zt/arvr/" target="_blank" rel="nofollow">vr培训</a>
+        </dd>
+        <dd style="display:none;">
+            <a href="http://www.ujiuye.com/" target="_blank"> IT培训</a>
+            <a href="http://weifang.offcn.com/" target="_blank"> 潍坊人事考试中心</a>
+            <a href="http://www.zgsydw.com/hainan/" target="_blank"> 海南事业单位招聘</a>
+            <a href="http://jining.offcn.com/ " target="_blank">济宁公务员</a>
+            <a href="http://www.ctiku.com/sili/" target="_blank">私立学校 </a>
+            <a href="http://www.eoffcn.com/sydwks/" target="_blank">事业单位招聘</a>
+            <a href="http://www.ukassignment.org/wkdx/" target="_blank">网课代修</a>
+            <a href="http://19.offcn.com/" target="_blank">19直播课堂</a>
+            <a href="http://www.zgcjpx.com/" target="_blank">财经培训</a>
+            <a href="http://shanghai.ujiuye.com/" target="_blank">上海IT培训</a>
+            <a href="http://hubei.ujiuye.com/" target="_blank">武汉IT培训</a>
+            <a href="http://hunan.ujiuye.com/" target="_blank">湖南IT培训</a>
+            <a href="http://www.zgsydw.com/gansu/" target="_blank">甘肃事业单位考试</a>
+            <a href="https://www.yanedu.com/tiaojian/" target="_blank">在职研究生报考条件</a>
+            <a href="http://linfen.offcn.com/" target="_blank">临汾人事考试网</a>
+            <a href="http://hb.kaoyan365.cn/" target="_blank">河北中公考研</a>
+            <a href="http://hn.kaoyan365.cn/" target="_blank">湖南考研网</a>
+            <a href="http://gz.zgjsks.com/" target="_blank">贵州教师招聘</a>
+            <a href="http://bbs.sanhao.com/" target="_blank">三好网社区</a>
+            <a href="http://www.dxs518.cn/" target="_blank">大学生校内网</a>
+            <a href="http://nanchang.offcn.com/" target="_blank">南昌人事考试信息网</a>
+            <a href="http://www.shouhuola.com/" target="_blank">计算机编程入门</a>
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=1535425916&site=qq&menu=yes" rel="nofollow" target="_blank">【申请友情链接】</a>
+        </dd>
+    </dl>
+    <style>
+        .zgn_yqlj span {
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+
+        .zgn_yqlj span.on {
+            color: red;
+        }
+    </style>
+    <script type="text/javascript">
+        $(".zgn_yqlj dt span").mouseover(function () {
+            $(this).addClass("on").siblings().removeClass("on");
+            $(".zgn_yqlj dd").hide().eq($(this).index()).show();
+        })
+    </script>
+</div>
+
+<!--页脚-->
+
+<div class="footer">
+    <div style="display: inline-block;">
+        <a href="http://www.ujiuye.com/aboutus.html" target="_blank" > 关于我们 </a> |
+        <a href="http://www.ujiuye.com/contactus.html" target="_blank"> 联系我们 </a> |
+        <a href="http://www.ujiuye.com/join.html" target="_blank"> 加入我们 </a> |
+        <a href="http://www.ujiuye.com/honor/" target="_blank">品牌荣誉</a> |
+        <a href="http://www.ujiuye.com/copyright.html" target="_blank"> 版权申明 </a> |
+        <a href="http://www.ujiuye.com/map.html" target="_blank"> 网站地图 </a> |
+        <a href="http://www.ujiuye.com/pay.html" target="_blank"> 支付方式</a>
+        <br><a href="http://beian.miit.gov.cn" rel="noopener noreferrer nofollow" target="_blank">京ICP备10218183号-88</a>
+        京ICP证161188号 <a target="_blank"
+                        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020723"
+                        rel="nofollow"> <img src="Public/images/gongbei.png"/> 京公网安备11010802020723号</a> <a href="https://zzlz.gsxt.gov.cn/businessCheck/verifKey.do?showType=p&serial=91110108551426892J-SAIC_SHOW_10000091110108551426892J1597908389910&signData=MEQCIAjh2PzB/huK3VthSDjclM0D4XYdpUkkzuCCTMoQoaiQAiAqp/yCZfT97roNePZXOvVGr05AU9/gp4WGFBMeWUQhwg==
+" target="_blank" rel="nofollow"><img src="uploads_it/2008/QuanGuo/F8K1178241218YGC.png"> </a>
+        <br/>
+        Copyright&copy;1999-2020 北京中公教育科技有限公司 .All Rights Reserved
+
+    </div>
+    <div style="position: relative;display: inline;top: -15px;left: 20px;">
+        <a key="57d8aeb4efbfb021949e864b" logo_size="83x30" logo_type="realname" href="http://www.anquan.org">
+
+        </a>
+        <a key="58d342bdefbfb02be90c4fa9" logo_size="83x30" logo_type="common" href="http://www.anquan.org">
+
+        </a>
+    </div>
+</div>
+
+<script language="javascript" src="public/it/js/index.js"></script>
+<script language="javascript" src="public/it/js/jquery.jscrollpane.min.js"></script>
+
+<script>
+    $('.zg_zbzt').first().show().siblings('.zg_zbzt').hide();
+
+    $('.scroll-pane').jScrollPane({
+        mouseWheelSpeed: 100, horizontalGutter: 10
+    });
+
+    $('.zg_zbbr li').hover(function () {
+        $(this).addClass('on').siblings('li').removeClass('on');
+        $('.zg_zbbl .zg_zbzt').hide();
+        $('.zg_zbbl .zg_zbzt').eq($(this).index()).show();
+    });
+
+    $('.zg_jpkc').each(function () {
+        $(this).find('.zg_jpkcu').first().show().siblings('zg_jpkcu').hide();
+        $(this).find('.zg_jpnav li').hover(function () {
+            $(this).addClass('on').siblings('li').removeClass('on');
+            $(this).parents('.zg_jpkc').find('.zg_jpkcu').hide();
+            $(this).parents('.zg_jpkc').find('.zg_jpkcu').eq($(this).index()).show();
+        });
+    });
+</script>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>用户登录-优学</title>
+    <link href="public/login/publictest/css/public.css?v=6" rel="stylesheet" type="text/css"/>
+    <link href="public/login/publictest/skin_youxue/css/global.css?v=1" rel="stylesheet" type="text/css"/>
+    <link href="public/login/publictest/skin_youxue/css/layout.css" rel="stylesheet" type="text/css"/>
+    <link href="public/login/publictest/skin_youxue/css/youxue.css" rel="stylesheet" type="text/css"/>
+    <link href="public/login/publictest/skin_youxue/css/header.css?v=21" rel="stylesheet" type="text/css"/>
+    <script language="javascript" src="public/login/publictest/js/jquery.min.js"></script>
+    <script type="text/javascript" src="public/login/publictest/js/shensuo.js"></script>
+    <script language="javascript" src="public/login/publictest/skin_youxue/js/page.js"></script>
+    <script type="text/javascript" src="public/js/header.js"></script>
+    <script type="text/javascript" src="public/js/outlogin.js"></script>
+</head>
+<body>
+<script>
+    var uidtest = '';
+</script>
+<div class="offcn_head">
+    <div class="eTop_nav">
+        <div class="eTopRight">
+            <div class="eUser">
+                <p class="eLogin">
+                    <a href="/foreuser/login/"
+                       rel="nofollow">登录</a>
+                    <a href="/foreuser/register/"
+                       rel="nofollow">注册</a>
+                </p>
+                <a href="mycourse/index/">
+                    <span id="eUserpic">
+                    <img src="public/images/dftouxiang.jpg" width="30" height="30">
+                    </span>
+                </a>
+                <div class="eUserBox">
+                    <a href="mycourse/index/" rel="nofollow">我的课程</a>
+                    <a href="favorite/index/" rel="nofollow">我的收藏</a>
+                    <a href="orders/myorders/" rel="nofollow">我的订单</a>
+                    <a href="determine/relist" rel="nofollow">我的测评</a>
+                    <a href="mycoupon/index/" rel="nofollow">我的优惠券</a>
+                    <a href="user/index" rel="nofollow">帐号设置</a>
+                    <a onclick="outlogin();" href="javascript:;" rel="nofollow">退出登录</a>
+                </div>
+            </div>
+            <div class="zg_index_sys">
+                <span>&nbsp;</span>
+                <div class="zg_index_ewm">
+                    <div class="zg_index_de">
+                        <img src="public/it/images/ujyx_16.jpg" alt="IT优学APP">
+                        <p>扫码下载<br>IT优学APP</p>
+                    </div>
+                    <div class="zg_index_de">
+                        <img src="public/it/images/ujyx_17.jpg" alt="中公优就业">
+                        <p>扫码关注<br>中公优就业</p>
+                    </div>
+                </div>
+            </div>
+            <div class="eTopShopCart">
+                <a class="eTopcen" rel="nofollow" href="shopcart/cart_to_shop/">
+                    <span id="J-shoping-num"></span>
+                </a>
+            </div>
+            <form action="list/" method="get">
+                <div class="eSecher eSecher1">
+                    <div class="formInp" style="display:none;">
+                        <input type="text" name="title" class="eTxt" placeholder="搜索课程" value=""
+                               style="display: inline-block;">
+                        <input type="submit" class="eSub" value="">
+                    </div>
+                    <span class="eSub02"></span>
+                </div>
+            </form>
+        </div>
+        <a class="eLogo" href=""><img src="public/it/images/logo_it.jpg"
+                                                            title="优学-IT职业在线教育"></a>
+        <div class="e_nav">
+            <div class="e_nd" id="it_index_span">
+                <a target="_self" href="" class="">首页</a>
+            </div>
+            <div class="e_nd" id="it_index_jpkc">
+                <i>&nbsp;</i>
+                <a target="_self" href="list/">精品课程</a>
+                <ul class="zg_jpkcx">
+                    <li><a href="list/?price=2" target="_blank">免费课程</a></li>
+                    <li><a href="list/?price=1" target="_blank">精品网课</a></li>
+                </ul>
+            </div>
+            <div class="e_nd"><a target="_self" href="zhibo/">在线直播</a></div>
+            <div class="e_nd"><a target="_blank" href="ke/">IT培训班</a></div>
+            <div class="e_nd"><a target="_blank" href="http://www.ujiuye.com/">IT培训机构</a></div>
+            <div class="e_nd"><a target="_blank" href="zt/2020zt/xthz/" rel="nofollow">在线就业班</a>
+            </div>
+            <div class="e_nd"><a target="_blank" href="zt/ityxapp/" rel="nofollow"
+                                 style="color:#ff4905;border:1px solid #ff4905;border-radius: 6px;">APP下载</a></div>
+        </div>
+    </div>
+</div>
+
+<div class="wid1000 offcnlogin" id="loginoffcn1000">
+    <div class="offcnloginleft fl">
+        <form class="demoform" action="foreusertest/dologin/type/5/?callback=?" id="form_login">
+            <input type="hidden" name="url_home" value='' id="url_home"/>
+            <ul>
+                <li>
+                    <span>手机：</span>
+                    <input style="display:none">
+                    <input name="username" type="text" id="username_dl" class="input262" value="请输入手机号"
+                           onfocus="var val = this.value; if(val=='请输入手机号') this.value='';"
+                           onblur="var val = this.value; if(val=='')this.value='请输入手机号';"/>
+                    <em id="J_usernameTip"></em>
+                </li>
+                <li>
+                    <span>密码：</span>
+                    <input style="display:none">
+                    <input name="password" type="password" class="input262" id="password_dl" placeholder="请输入密码"/>
+                    <em id="J_passwordTip"></em>
+                </li>
+                <li class="loginleft_2"><input name="" type="button" value="登录" class="loginbutton1 lgb_bgc"/></li>
+                <li class="loginleft_3"><a href="foreuser/forget/">找回密码</a><a
+                        href="foreuser/register/login_url/http%3A%2F%2Fxue.ujiuye.com/">注册</a>
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div class="offcnloginright">
+        <p>使用合作账号一键登录：</p>
+        <p>
+            <a href="http://login.offcn.com/connect2/c/oauth/index.php?type=5&uri=http://xue.ujiuye.com"
+               class="dsf_qq"></a>
+            <a href="http://login.offcn.com/connect2/x/index.php?type=5&uri=http://xue.ujiuye.com" class="dsf_qx"></a>
+            <a href="http://login.offcn.com/connect2/w/index.php?type=5&uri=http://xue.ujiuye.com" class="dsf_wb"></a>
+        </p>
+        <dl>
+            <dt>用户专享服务：</dt>
+            <dd>极致的视频学习体验</dd>
+            <dd>丰富的直播课程免费学</dd>
+            <dd>开课提醒，不错过每一次精彩</dd>
+            <dd>讲、学、练、考，多种高效学习方式快速提升成绩</dd>
+        </dl>
+    </div>
+
+</div>
+<script type="text/javascript" src="public/login/publictest/js/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript">
+    var isess = 0;
+    $(function () {
+
+        var url = document.domain;
+
+        $('.loginbutton1').on('click', function () {
+            var password = $("#password_dl").val();
+            if ($("#username_dl").val() == "") {
+                $('#J_usernameTip').html('账号不能为空').attr('class', 'login_tip1');
+                return false;
+            }
+            if (!$("#username_dl").val().match(/^(1[0-9]{10})$/)) {
+                $('#J_usernameTip').html('账号格式错误').attr('class', 'login_tip1');
+                return false;
+            }
+            $('#J_usernameTip').html('');
+            if ($("#password_dl").val() == "") {
+                $('#J_usernameTip').html('请输入密码').attr('class', 'login_tip1');
+                return false;
+            }
+            if (password.length < 6 || password.length > 20) {
+                $('#J_usernameTip').html('密码应该为6-20位之间！').attr('class', 'login_tip1');
+                return false;
+            }
+            $('#J_usernameTip').html('');
+            if (isess > 2) {
+                if ($("#dlsecode").val() == "") {
+                    $('#J_secodeTip').html('验证码不能为空').attr('class', 'login_tip1');
+                    return false;
+                }
+                if (!$("#dlsecode").val().match(/^([0-9]{5})$/)) {
+                    $('#J_secodeTip').html('验证码格式错误').attr('class', 'login_tip1');
+                    return false;
+                }
+            }
+            $('#J_secodeTip').html('');
+            $('#J_usernameTip').html('');
+        });
+
+    })
+    $(document).keyup(function (event) {
+        if (event.keyCode == 13) {
+            $(".loginbutton1").trigger("click");
+        }
+    });
+    
+</script>
+<script language="javascript" src="public/login/publictest/js/qglobal.js"></script>
+<script language="javascript" src="public/login/publictest/js/front.js"></script>
+<script type="text/javascript" src="public/login/publictest/js/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="public/login/publictest/js/book.js"></script>
+<script type="text/javascript" src="public/login/publictest/js/simplefoucs.js"></script>
+<div class="clearfix">&nbsp;</div>
+<div class="footer" style="width:100%;height:auto;">
+    <div style="display: inline-block;">
+        <a href="http://www.ujiuye.com/aboutus.html" target="_blank" target="_blank"> 关于我们 </a> |
+        <a href="http://www.ujiuye.com/contactus.html" target="_blank"> 联系我们 </a> |
+        <a href="http://www.ujiuye.com/join.html" target="_blank"> 加入我们 </a> |
+        <a href="http://www.ujiuye.com/honor/" target="_blank">品牌荣誉</a> |
+        <a href="http://www.ujiuye.com/copyright.html" target="_blank"> 版权申明 </a> |
+        <a href="http://www.ujiuye.com/map.html" target="_blank"> 网站地图 </a> |
+        <a href="http://www.ujiuye.com/pay.html" target="_blank"> 支付方式</a>
+        <br><a href="http://beian.miit.gov.cn" rel="noopener noreferrer nofollow" target="_blank">京ICP备10218183号-88</a>
+        京ICP证161188号 <a target="_blank"
+                        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020723"
+                        rel="nofollow"> <img src="public/images/gongbei.png"/> 京公网安备11010802020723号</a>
+        <br/>
+        Copyright&copy;1999-2020 北京中公教育科技有限公司 .All Rights Reserved
+        <script type="text/javascript" src="http://www.offcn.com/statics/js/gzbot.js"></script>
+    </div>
+    <div style="position: relative;display: inline;top: -15px;left: 20px;">
+        <a key="57d8aeb4efbfb021949e864b" logo_size="83x30" logo_type="realname" href="http://www.anquan.org">
+            <script src="http://static.anquan.org/static/outer/js/aq_auth.js"></script>
+        </a>
+        <a key="58d342bdefbfb02be90c4fa9" logo_size="83x30" logo_type="common" href="http://www.anquan.org">
+            <script src="http://static.anquan.org/static/outer/js/aq_auth.js"></script>
+        </a>
+        <a target="_blank"
+           href="https://verify.nic.xin/xinDetail/xinAuthInfoDetail?token=51a978158388c99e103a7cdf46bcbc3f"><img
+                src="https://verify.nic.xin/api/domain/showCreditLogo.do?logoToken=040f755cac3dac1c4597c20cc831a69b"></a>
+    </div>
+</div>
+
+</body>
+
+<script type="text/javascript">
+    /*
+        2017-09-05 ADD 测评页面底部bug上浮
+    */
+    function FooterFixFn(){
+
+        var windowHeight = $(window).height();
+        var headerHeight = $('.offcn_head').height();
+        var esjTitHeight = $('.offcnlogin').outerHeight();
+        var footrHeight = $('.footer').height();
+
+        if( windowHeight - headerHeight -footrHeight > esjTitHeight )
+        {
+            $('.footer').addClass('footerFix0905');
+        }
+        else
+        {
+            $('.footer').removeClass('footerFix0905');
+        };
+
+    };
+    FooterFixFn();
+
+    $(window).resize(function(){
+        FooterFixFn()
+    });
+
+</script>
+<style type="text/css">
+    .footerFix0905{position:fixed;top:auto;bottom:0;left:0;}
+</style>
+</html>

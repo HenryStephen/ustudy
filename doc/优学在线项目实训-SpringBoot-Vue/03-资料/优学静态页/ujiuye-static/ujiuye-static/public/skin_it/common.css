@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 提示信息 */
+.tipbox{height:54px;line-height:54px;position:absolute;display:none;}
+.tipbox .tip-l{float:left;width:45px;height:54px;background-image:url(img/bgimg/tip_layer.png);background-repeat:no-repeat;background-position:-5px 0;}
+.tipbox .tip-c{float:left;height:54px;line-height:52px;padding:0 10px 0 5px; background-image:url(img/bgimg/tip_layer.png);background-repeat:repeat-x;background-position:0 -161px;}
+.tipbox .tip-r{float:left;width:5px;height:54px;background-image:url(img/bgimg/tip_layer.png);background-repeat:no-repeat;background-position:0 0;}
+.tip-success .tip-l{background-position:-6px 0;}
+.tip-alert .tip-l{background-position:-6px -54px;}
+.tip-error .tip-l{background-position:-6px -108px;}
+.tipbox .d_loading{float:left;width:45px;height:54px;background-image:url(img/bgimg/dialog/loading.gif) no-repeat scroll 20px center transparent; padding: 10px 40px 10px 50px;}
+
+
+/*dialog 弹窗 2014-07-28 wjh  */
+body { _margin:0; _height:100%; }/*IE6 BUG*/
+.d-outer { text-align:left; width:420px;border-radius:3px;}
+.d-border, .d-dialog { border:0 none; margin:0; border-collapse:collapse; width:auto; }
+.d-nw, .d-n, .d-ne, .d-w, .d-c, .d-e, .d-sw, .d-s, .d-se, .d-header, .d-main, .d-footer { padding:0; }
+.d-header, .d-button { font: 12px/1.11 'Microsoft Yahei', Tahoma, Arial, Helvetica, STHeiti; _font-family:Tahoma,Arial,Helvetica,STHeiti; -o-font-family: Tahoma, Arial; }
+.d-title { overflow:hidden; text-overflow: ellipsis; cursor:default; }
+.d-state-noTitle .d-title { display:none; }
+.d-close { display:block; position:absolute; text-decoration:none; outline:none; _cursor:pointer; }
+.d-close:hover { text-decoration:none; }
+.d-main { text-align:center; vertical-align:top; min-width:9em; }
+.d-content { display:inline-block; display:block\0/*IE8 BUG*/; display:inline-block\9\0; *zoom:1; *display:inline; text-align:left; border:0 none; width:100%;  }
+.d-content.d-state-full { display:block; width:100%; margin:0; padding:0!important; height:100%; }
+.d-loading { height:32px; text-indent:-999em; overflow:hidden; background:url(img/bgimg/dialog/loading.gif) no-repeat center center; }
+.d-buttons { padding:10px 8px 25px 8px; text-align:center; white-space:nowrap;background:#fff; border-bottom-left-radius:3px;border-bottom-right-radius:3px;}
+.d-button { margin-left:15px; padding: 0 20px; cursor: pointer; display: inline-block;height:28px;line-height:28px;background:#f3f3f3;border:1px solid #dcdcdc;font:14px "宋体";color:#333}
+.d-button::-moz-focus-inner, .d-button::-moz-focus-outer { border:0 none; padding:0; margin:0; }
+.d-button:focus { outline:none 0; background:#ddd;}
+.d-button:hover { color:#000; background:#ddd;}
+.d-button:active { border-color:#666;background:#ddd;}
+.d-button[disabled] { cursor:default; color:#666; background:#DDD; border: 1px solid #999; filter:alpha(opacity=50); opacity:.5; box-shadow:none; }
+.d-state-highlight {height:28px;line-height:28px; display:inline-block;border:none;padding:0 20px;background:#ff4a00!important;color:#fff;font-size:14px; }
+.d-state-highlight:hover {background:#ff4a00!important;color:#fff; }
+.d-state-highlight:active {background:#ff4a00!important;color:#fff;}
+.d-mask { background:#000; filter:alpha(opacity=50); opacity:.5; }
+
+
+
+.d-titleBar { position:relative; height:100%; }
+.d-title { height:32px; line-height:32px; padding:0 48px 0 10px; background-color:#ff4a00;font-size:16px; color:#fff;width:360px;border-top-left-radius:3px;border-top-right-radius:3px;}
+.d-state-focus .d-title { color:#fff; }
+.d-state-drag .d-title { cursor:move;}
+.d-close { padding:0; top:0; right:4px; width:28px; height:18px;color:#fff;font-size:22px;background-repeat:no-repeat;margin-top:3px;}
+.d-close:hover { background-position:0 -18px; color:#fff; text-decoration:none}
+.d-close:active { background-position:0 -18px; }
+.d-content {padding:35px 45px 15px 45px!important;color:#333;line-height:1.8em; background:#fff; box-sizing:border-box; font-size:14px;}
+.d-content a {color:#f60; font-size:14px;text-decoration: underline;}
+.d-content a:hover{ color:#f60}
+.d-state-noTitle .d-close { top:0; right:0; width:18px; height:18px; line-height:18px; text-align:center; text-indent:0; font-size:18px; text-decoration:none; color:#214FA3; background:none; filter:!important; }
+.d-state-noTitle .d-close:hover, .d-state-noTitle .d-close:active { text-decoration:none; color:#900; }

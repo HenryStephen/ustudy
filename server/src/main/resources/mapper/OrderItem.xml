@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.nciae.ustudy.mapper.OrderItemMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.edu.nciae.ustudy.po.OrderItem">
+        <id column="id" property="id" />
+        <result column="order_id" property="orderId" />
+        <result column="course_id" property="courseId" />
+        <result column="course_price" property="coursePrice" />
+        <result column="is_deleted" property="deleted" />
+        <result column="is_quitted" property="quitted" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, order_id, course_id, course_price, is_deleted, is_quitted
+    </sql>
+
+
+
+</mapper>

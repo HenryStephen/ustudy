@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.nciae.ustudy.mapper.CourseMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.edu.nciae.ustudy.po.Course">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="preview_picture" property="previewPicture" />
+        <result column="is_free" property="free" />
+        <result column="original_price" property="originalPrice" />
+        <result column="present_price" property="presentPrice" />
+        <result column="category_id" property="categoryId" />
+        <result column="subject_id" property="subjectId" />
+        <result column="teaching_methods" property="teachingMethods" />
+        <result column="published_time" property="publishedTime" />
+        <result column="students_number" property="studentsNumber" />
+        <result column="valid_days" property="validDays" />
+        <result column="phone" property="phone" />
+        <result column="class_hour" property="classHour" />
+        <result column="is_deleted" property="deleted" />
+    </resultMap>
+
+    <update id="quit">
+        update `order` as a,order_item as b
+        set b.is_quitted = 1
+        where a.user_id = #{userId} and a.id = b.order_id and
+            b.course_id in
+            <foreach collection="courseIdList" open="(" separator="," close=")" item="courseId">
+                #{courseId}
+            </foreach>
+    </update>
+
+    <select id="selectLearningCourse" parameterType="Long" resultMap="BaseResultMap">
+        select c.*
+        from `order` as a
+        left join order_item as b on b.order_id = a.id
+        left join course as c on b.course_id = c.id
+        where
+            a.user_id = #{userId} and b.is_quitted = 0 and DateDiff(current_date(), c.published_time) &lt;= c.valid_days
+    </select>
+
+    <select id="selectExpiredCourse" parameterType="Long" resultMap="BaseResultMap">
+        select c.*
+        from `order` as a
+        left join order_item as b on b.order_id = a.id
+        left join course as c on b.course_id = c.id
+        where
+            a.user_id = #{userId} and b.is_quitted = 0 and DateDiff(current_date(), c.published_time) &gt; c.valid_days
+    </select>
+</mapper>

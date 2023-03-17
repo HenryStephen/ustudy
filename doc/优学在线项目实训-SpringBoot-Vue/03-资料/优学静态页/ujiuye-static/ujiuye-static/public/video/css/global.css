@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+/* by offcnwxs in 2015.08.10 */
+/*publick*/
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select{margin:0;padding:0}
+body{font:12px "宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;color: #333;}
+h1,h2,h3,h4,h5,h6 {font-size:100%; font-weight:normal;}
+a{color:#333; cursor:pointer; text-decoration:none;}
+a:hover{text-decoration:underline; color:#ff4a00;}
+img{border:0;vertical-align:middle}
+em{font-style:normal}
+li{list-style:none}
+textarea,input{background: none; border:none;outline: none;resize: none;}
+.marc{margin:0 auto;width: 1200px;}
+.fl{float:left;}
+.fr{float: right;}
+.tr{text-align: right;}
+.clearfix:after { content:" "; display:block; clear:both; height:0; }
+.clearfix { zoom:1;}
+
+.offcn_size{width: 1200px; margin:0 auto;text-align:left;}
+
+

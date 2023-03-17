@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.pagebox li a{border:1px solid #e6e6e6;color: #666;}
+.pagebox li a:hover,.pagebox li.on a{background: #ff4a00;color: #fff; }
+
+.btn123{border: 1px solid #ff4a00;color:#ff4a00;}
+a.btn123:hover{background: #ff4a00;color: #fff; text-decoration:none;}
+
+.btn214{border: 1px solid #878e90;color: #333;}
+a.btn214:hover{border: none;background: #ff4a00;color: #fff; text-decoration:none;}
+
+.orgeen,a.orgeen:link,a.orgeen:visited,a.orgeen:hover{color: #ff4a00;}
+.bg_org{background: #ff4a00;}
+
+.getin{color: #ff4a00;border:1px solid #ff4a00;}
+
+.btn132{color: #ff4a00;background: #fff;border: 1px solid #ff4a00;}
+	a.getin:hover,a.btn132:hover{background:#ff4a00;color: #fff; text-decoration:none;}
+	
+.c_orange,.c_orange a,a.c_orange,a.c_orange:link,a.c_orange:visited{color: #ff6600;}
+.c9,.c9 a,a.c9,a.c9:link,a.c9:visited{color: #999;}
+.c6,.c6 a,a.c6,a.c6:link,a.c6:visited{color: #666;}
+
+

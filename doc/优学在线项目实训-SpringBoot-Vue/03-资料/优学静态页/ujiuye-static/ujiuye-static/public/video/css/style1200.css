@@ -1,0 +1,36 @@
+/* by offcnwxs in 2015.08.10 */
+.offcn_size{width: 1200px; margin:0 auto;text-align:left;}
+/*播放*/
+.zg_video{ width:1200px; height:585px; background:#292929; margin:0 auto;}
+.zg_video_cont{ height:485px; position:relative; overflow:hidden;}
+
+.zg_shipin{ float:left; width:100%; overflow:hidden;}
+.zg_shipin_cont{ background:#fff;}
+
+/*介绍*/
+.zg_jieshao{ width:860px; height:auto;}
+.zg_xgkc_cont{ height:205px;}
+.zg_xgkc_cont dl{ float:left; width:200px; margin-right:15px; overflow:hidden; padding-top:10px;}
+.zg_xgkc_cont dl dt{ width:200px;}
+.zg_xgkc_cont dl dd{ width:185px; height:61px; background:#f8f8f8; padding:4px 5px 0 10px; font:14px/26px "Microsoft YaHei";}
+.tablecont{ width:340px; height:410px;}
+.scroll-pane{ width:340px; height:410px;overflow:auto;}
+.scroll-pane1{ width:340px; height:400px;overflow:auto;}
+/* by offcnwxs in 2015.08.10 */
+
+/*新线路*/
+.xlzz{height:48px; float:left; color:#999; width:70px; position:relative; font:12px/48px '宋体'; z-index:9988;}
+.xlzz a{color:#999;}
+.xlzz em.ioc01{display: inline-block;width: 15px;height: 18px;background:url(../images/zg_iocbk02.jpg) no-repeat;margin-right: 6px; position:relative; top:14px;}
+.xlz{position:absolute; left:0; top:-68px; border:none; display:none;}
+.xlz a{display:block; width:65px; height:34px; background:#1C1C1C; text-align:center; font:14px/34px 'Microsoft Yahei'; color:#fff;}
+.xlz a.on{background:#18B160;}
+.xlz a:hover{background:#18B160; text-decoration:none;}
+.xlzh{position:absolute; left:0; top:0; width:100%; height:100%; font:16px/486px 'Microsoft Yahei'; color:#fff; background:#333; display:none; text-align: center; z-index: 120000; }
+
+.xlzz_new {margin-left: 15px;    height: 48px;  float: left;  color: #999;  width: 70px; position: relative; font: 12px/48px '宋体'; z-index: 9988;}
+.xlzz_new p{ width:100%;top: auto;bottom: 15px; }
+.xlzz_new p a{width:100%;}
+.xlzz_new .ioc02{    display: inline-block; *display:inline; zoom:1; width: 15px; height: 18px; background: url(../images/5uieee.png) no-repeat left center; margin-right: 6px; vertical-align: middle; position: static;  top: 0;}
+.xlzz em{ display: none; }
+.xlzz a.on em{ display:inline-block; *display:inline; zoom:1;  }

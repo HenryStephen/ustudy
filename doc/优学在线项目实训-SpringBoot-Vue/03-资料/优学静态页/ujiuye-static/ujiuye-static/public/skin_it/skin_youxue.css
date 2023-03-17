@@ -1,0 +1,183 @@
+.green{color: #18b160;}
+.blue{ color:#188eee;}
+.orgeen{ color:#ff7223;}
+.through{ text-decoration:line-through; color:#666;}
+.blue_bg{ background: #188eee}
+.blue_bj{ background: #0d7cc3}
+.nav_bgcolor{ background:url(ky_service_03.gif) no-repeat 15px center  #ff4a00}
+.nav_border{border: 2px solid #ff4a00;}
+
+/**/
+.kjwx_tit{ border-bottom:1px solid #d7d7d7; margin-bottom:20px; height:40px; width:1200px; font-size:22px; font-weight:normal; padding-top:37px; line-height:22px;}
+.kjwx_con1{ width:1200px; overflow:hidden;}
+.kjwx_dl{ width:220px; height:191px; float:left; margin-right:25px;}
+.kjwx_nmr{ margin-right:0;}
+.kjwx_dl dt{ width:220px; height:126px;}
+.kjwx_dl dd{ width:210px; height:60px; padding-top:5px; padding-left:10px; background:#f8f8f8; line-height:25px;}
+.kjwx_dl dd span,.kjwx_dl dd a{ font-size:14px;}
+.kjwx_ph{width:220px; height:191px; float:left;}
+.kjwx_ph p{ font-size:18px; border-bottom:1px solid #d7d7d7; height:27px; margin-bottom:10px;}
+.kjwx_ph ul{ background:url(http://xue.ujiuye.com/public/images/kjwx_07.jpg) no-repeat; padding-left:26px;}
+.kjwx_ph ul li{ height:32px;}
+.kjwx_ph ul li a{font-family:"Microsoft YaHei"; font-size:14px; color:#333;}
+.kjwx_ph ul li a:hover{color:#188eee;}
+/**/
+.offcn_demo{width: 1200px; height:350px;position: relative; overflow:hidden;}
+.bx_wrap ul li{ float:left; width:207px; height:312px;}
+.bx_wrap a.prev { z-index:10;position:absolute; display:block; width:38px; height:70px; top:70px; left:0px; outline-style:none;outline-width: 0;text-indent:-999em; background:url(../images/zuo.png) center center no-repeat;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/zuo.png");_background:none;}
+.bx_wrap a.next { z-index:10;position: absolute; display:block; width:38px; height:70px;top:70px; right:0px;outline-style:none;outline-width: 0;text-indent:-999em; background:url(../images/you.png) center center no-repeat;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/you.png");_background:none;}
+.teacher{ font-size:14px; display:block; color:#333; line-height:27px; margin-top:12px;}
+.course{ display:block; color:#888; line-height:25px;}
+/**/
+.kjwx_con2{ width:100%; height:470px; background:#eefcf6;}
+.kjwx_wlys{ font-size:30px; text-align:center; line-height:90px; background:url(http://xue.ujiuye.com/public/images/kjwx_15.jpg) no-repeat center 113px; height:470px; width:1200px;}
+/*张伟强注释*/
+/*.footer{ width:100%; text-align:center; background:#444546; color:#aaa; line-height:32px; padding:48px 0;}*/
+.footer a{ color:#aaa;}
+
+
+
+/* CSS Document */
+.orange1{color:#fe7d3c;}
+.orange{color: #ff6600;}
+.orange_bg{background:#fc8900;}
+.green_bg{background:#ff4a00;}
+.blue,a.blue,a.blue:hover{color:#ff4a00;}
+
+.kj_btn{  background: #ff4a00;}
+.heard_seach{ border:2px solid #ff4a00;}
+.all_bg{background:##188eee;}
+.all_color{color:##188eee;}
+.nav_bgcolor{ background:url(ky_service_03.gif) no-repeat 15px center #ff4a00;}
+.nav_border{border:2px solid #ff4a00;}
+.car_1{background:url(offcn_icon5.jpg) no-repeat left top;}
+.car_2{ background:url(offcn_icon5.jpg) no-repeat left -58px;}
+.car_3{ background:url(offcn_icon5.jpg) no-repeat left -120px;}
+.car_btn{background:#ff4a00;}
+.zg_gerenmain_right_bt a:hover{ color:#fff; border:solid 1px #ff4a00; border-right:none; background:#ff4a00; text-decoration:none;}
+.zg_gerenmain_right_bt a.hover{ color:#fff; border:solid 1px #ff4a00; border-right:none; background:#ff4a00; text-decoration:none;}
+.tab_bk .zg_click_kc{ border:2px solid #ff4a00; padding:0; background:url(selIco.png) no-repeat right bottom #fff;}
+.tab_bk a:hover{border:2px solid #ff4a00;}
+.tck_bg{background: #ff4a00;}
+.offcnkcjs_main2left_3 dl .dd_hover{background:#eafbf4;}
+.offcnkcjs_main2left_1 h2 .kcjssel{border:1px solid #e7e7e7;border-top:2px solid #ff4a00;border-bottom:none; background:#fff;font-size:14px;font-weight:bold;color:#333;}
+.btn .btn_hover{display:inline-block;width:20px;overflow:hidden;height:30px; background:url(http://xue.ujiuye.com/public/skin_it/offcn_img4.jpg) no-repeat left top;}
+.offcnkcjs_main2left_2 h2 .kcjssel{border:1px solid #e7e7e7;border-top:2px solid #ff4a00;border-bottom:none; background:#fff;font-size:14px;font-weight:bold;color:#333;}
+.offcnkcjs_main2left_4 h2 .kcjssel{border:1px solid #e7e7e7;border-top:2px solid #ff4a00;border-bottom:none; background:#fff;font-size:14px;font-weight:bold;color:#333; margin-right:15px;}
+.offcngwc_kongcon2 .gwc_kongtitsel{background:#ff4a00;color:#fff;border:1px solid #ff4a00;}
+.green_c{color: #ff4a00;}
+/**/
+.grzx_bg{background: #ff4a00;}
+.zg_gerenmain_left ul li a:hover{ background:#f0f0f0; border-left:solid 4px #ff4a00; padding-left:21px; position:relative; left:-1px; text-decoration:none; color:#333;}
+.zg_gerenmain_left ul li a.on{ background:#f0f0f0; border-left:solid 4px #ff4a00; padding-left:21px; position:relative; left:-1px; text-decoration:none; color:#333;}
+.zg_tiku_leibie a.on{ color:#ff4a00; font-weight:bold;}
+.zg_ddanxxi_table td .on{ display:inline-block; text-decoration:none; background:#ff4a00; padding:0 5px; color:#fff; line-height:20px;}
+.zg_ddanxxi_table td .on:hover{background:#ff4a00;}
+
+/*page*/
+.zg_page a{ display:inline-block; padding:0 13px; line-height:30px; background:#f0f0f0; color:#999; text-decoration:none; margin-left:10px;}
+.zg_page a:hover{ background:#ff4a00; color:#fff;}
+.zg_page span{ display:inline-block; padding:0 13px; line-height:30px; background:#ff4a00; color:#fff; margin-left:10px;}
+/**/
+.offcnkclbmain_left_1 ul li a:hover{background:#ff4a00;border-bottom:none;color:#fff; text-decoration:none;}
+.offcnkclbmain_left_1 ul .allkc a:hover{background:#ff4a00;border-bottom:none;color:#fff; text-decoration:none;}
+.offcnkcjs_main1right_2 .kcjsbutton_gwc:hover{color:#fff; text-decoration:none; background:#ff4a00;}
+.offcnkclbmain_right_3list dl dd a.baoming:hover{ text-decoration:none;color:#fff; background:#ff4a00;}
+.offcnkclbmain_right_1tit a{border:1px solid #e7e7e7;background:#fff;color:#666; display: inline-block; height: 22px; line-height: 22px; padding-left:6px; margin-bottom:6px;}
+.offcnkclbmain_right_1tit a:hover{border:1px solid #ff6600; text-decoration:none;}
+.offcnkclbmain_right_1tit a em{cursor:pointer; background:url(ws_03.jpg) no-repeat; width: 24px; height: 22px; float: right; margin-left: 10px;}
+.offcnkclbmain_right_1tit a:hover em{background:url(ws_05.jpg) no-repeat;}
+.offcnkclbmain_right_1tit a span{color:#ff6600;}
+.offcnkclbmain_right_1tit a:hover span{color:#ff6600;}
+.offcnkclbmain_right_2 em a{margin-right:10px; text-indent: 10px; display:inline-block;border:1px solid #e7e7e7; background:url(ws_15.jpg) no-repeat 44px center #fff; width: 62px; height: 23px; line-height: 23px;color:#666;}
+.offcnkclbmain_right_2 em a:hover{border:1px solid #ff4a00;background:url(ws_13.gif) no-repeat 44px center #ff4a00; text-decoration:none;color:#fff; font-weight: bold;}
+.offcnkclbmain_right_2 em .paixuHover{border:1px solid #ff4a00;background:url(ws_15.gif) no-repeat 44px center #ff4a00; text-decoration:none;color:#fff; font-weight: bold;}
+.offcnkclbmain_right_2 em .money{background:url(ws_12.gif) no-repeat 44px center #fff;}
+.offcnkclbmain_right_2 em .money:hover{background:url(ws_11.gif) no-repeat 44px center #ff4a00;color:#fff; font-weight: bold;}
+.offcnkclbmain_right_2 em .money_s{background:url(ws_11.gif) no-repeat 44px center #ff4a00;color:#fff; font-weight: bold;}
+.offcnkclbmain_right_2 em .money_x{background:url(ws_10.gif) no-repeat 44px center #ff4a00;color:#fff; font-weight: bold;}
+.offcnkclbmain_right_2 em .money_s:hover{background:url(ws_11.gif) no-repeat 44px center #ff4a00;color:#fff; font-weight: bold;}
+.offcnkclbmain_right_2 em .money_x:hover{background:url(ws_10.gif) no-repeat 44px center #ff4a00;color:#fff; font-weight: bold;}
+.offcnkclbmain_right_2 .only_look{ float: right}
+.offcnkclbmain_right_2 .only_look a{margin-right:10px;text-indent: 0px;  text-align: center; display:inline-block;border:1px solid #e7e7e7; background:#fff; width: 62px; height: 23px; line-height: 23px;color:#666;}
+.offcnkclbmain_right_2 .only_look .only_xz{border:1px solid #ff4a00;background:#ff4a00; text-decoration:none;color:#fff; font-weight: bold;}
+.qr_zf_fs:hover{background:#ff4a00;color:#fff; text-decoration:none}
+.zg_zhifu p .qued{ display:inline-block; width:109px; height:28px; background:#ff4a00; text-align:center; line-height:28px; color:#fff; font-size:14px; margin-right:13px; text-decoration:none;border:none;}
+.zg_zhifu p .qued:hover{background:#ff4a00;}
+.zg_wdkecheng_keche dl dd p span .xuexi:hover{background:#ff4a00; text-decoration:none}
+.zg_kywx_tel{background:url(logo_06.jpg) no-repeat left center;}
+/**/
+.colorGreen{color:#18b160;}/*绿色文字色*/
+.colorOrange{color:#ff6600;}/*橘色文字颜色*/
+.backgroundGreen{background:#18b160;} /*背景主体绿*/
+.backgroundGreen:hover{ background:#0c7b5a;}
+.backgroundGreen1{background:#17b686;} /*首页全部课程背景*/
+.backgroundGreen2{background:#18b160;} /*首页全部课程背景*/
+.borderGreen{border:2px solid #6bb370;}/*首页滑过课程边框*/
+.backgroundOrange{background:#fc8900;}
+
+.video_bg{background:url(video_bg.gif) no-repeat center center #000;}
+/*个人中心 我的优惠券列表皮肤*/
+.zg_qh1 li.qh1{background:#FF4A00;color:#fff;border-right:1px solid #FF4A00;border-top:1px solid #FF4A00;width:112px;height:36px;}
+
+.stepBar1,.stepBar2,.stepBar3{ height:32px;}
+.stepBar1{ background:url(img/step_blue.jpg) no-repeat left top;}
+.stepBar2{ background:url(img/step_blue.jpg) no-repeat left -43px;}
+.stepBar3{ background:url(img/step_blue.jpg) no-repeat left -84px;}
+.offcngwc_ddqrcon2_6 dl dd .gwc_ddqrtj{ display:inline-block;background:#ff4a00; width:170px;height:42px; color:#fff;font-weight:bold;font-size:14px; text-align:center; line-height:42px; cursor:pointer;border:none;}
+.offcngwc_ddqrcon2_6 dl dd .gwc_ddqrtj:hover{background:#ff4a00;text-decoration:none;}
+
+/*支付方式20160727*/
+.payMethod {padding: 30px 45px;}
+.payMethod li{float:left;width: 96px;height: 26px;margin-right:20px;line-height:26px;border: 1px solid #ff4a00; text-align: center;}
+.payMethod li.on{background:url(selIco.png) no-repeat right bottom;}
+.payMethod li a{color: #666;}
+
+/*新课程列表 -bitao--2016年11月25日*/
+.xk_fl p{line-height: 28px;color: #8d8989;border-bottom: 1px solid #ccc;margin-bottom: 15px;}
+.xk_fl dl{ margin-bottom:15px; clear:both; overflow:hidden;}
+.xk_fl dt{ float:left; font-size:14px; line-height:2; color:#a4a4a4; width:90px; font-family:"微软雅黑";}
+.xk_fl dd a{ font-size:14px;font-family:"微软雅黑"; line-height:2; padding:0 15px; display:inline-block;}
+.xk_fl dd a.xk_click{ background:#ff4a00; color:#fff;}
+.xk_fl dd a:hover{ color:#ff4a00; text-decoration:none;}
+.xk_fl dd a.xk_click:hover{ color:#fff; text-decoration:none;}
+
+.xk_nav span{ width:100px; display:block; float:left; cursor:pointer; font-size:16px; color:#555;font-family:"微软雅黑";	 height:42px; line-height:42px; text-align:center; border-right:1px solid #efefef; }
+.xk_nav .xk_zh{ background:#fff; color:#ff4a00;}
+.xk_nav .xk_xl_hover{ background:url(images/xkp_06.jpg) no-repeat 70px 15px #fff;color:#ff4a00;}
+.xk_nav .xk_xp{ background:url(images/xkp_08.png) no-repeat 70px 15px;}
+.xk_nav .xk_jg{ background:url(images/xkp_03.png) no-repeat 70px 15px;}
+.xk_nav .xk_jg1{ background:url(images/xkp_031.jpg) no-repeat 70px 15px #fff; color:#ff4a00;}
+.xk_nav .xk_jg2{ background:url(images/xkp_032.jpg) no-repeat 70px 15px #fff; color:#ff4a00;}
+.xk_nav .mfkc{ padding-left:20px; margin-left:45px; height:40px; line-height:40px; font-size:14px; color:#555; font-family:'Microsoft Yahei'; position:relative; float:left;}
+.xk_nav font input{ position:absolute; left:48px; top:5px;}
+.xk_nav .mfkc font{ display:block; width:14px; height:14px; border:1px solid #c0c0c0; position:absolute;top:11px; left:0;}
+.xk_nav .mfkc:hover{ color:#ff4a00; text-decoration:none;}
+.xk_nav .mfkc:hover  font{ text-decoration:none; border:1px solid #ff4a00;}
+.xk_nav .mfkc.on font{  border:1px solid #ff4a00; background:url(images/yx_dj_03.jpg) no-repeat;}
+
+.jgqj{ width:100px; display:block; float:left; cursor:pointer; font-size:16px; color:#555;font-family:"微软雅黑"; background:#f8f8f8; height:42px; line-height:42px; text-align:center; border-right:1px solid #efefef;border-bottom:1px solid #efefef; position:relative;}
+.arrow-down{ display:inline-block; width:10px; height:10px; overflow:hidden; background:url(images/xkp_03.png) no-repeat left -6px ; margin-left:3px;}
+.jiage{ width:100px; height:42px; display:inline-block; background:#f8f8f8; line-height:42px; position:relative;  z-index:998; font-size:16px; font-family:'Microsoft Yahei'; color:#555;}
+.jiage.on{ color:#ff4a00; text-decoration:none; background:#fff}
+.price-select{ position:absolute; z-index:10; width:208px; border:1px solid #efefef; background:#fff; box-shadow:1px 1px 3px #ddd; display:none; top:41px;}
+.price-select.on{ display:block;}
+.price-select ul li{ text-align:left;}
+.price-select ul li a{ height:38px; line-height:38px; padding:0 20px; color:#555; font-size:14px; font-family:'Microsoft YaHei';}
+.price-select ul li a:hover{ color:#ff4a00; text-decoration:none;}
+
+.price-input{ text-align:center; padding:10px 0; color:#999; border-top:1px solid #efefef;}
+.price-input input{ width:38px; height:18px; padding:5px; vertical-align:middle; border:1px solid #e5e5e5; line-height:20px; font-size:14px; text-align:left; outline:none;}
+.price-input a{ color:#fff; height:30px; line-height:30px; background:#ff4a00; display:inline-block; vertical-align:middle; cursor:pointer; font-size:14px; text-align:center; border-radius:2px; padding:0 20px; text-decoration:none;}
+input[type=text]:focus, input[type=password]:focus {
+    border: 1px solid #888;
+}
+
+.xk_nav1 span{ display:block; float:left; margin:0 15px;}
+.xk_nav1 a{ position:relative; padding-left:20px;text-align:right; margin:0 15px;}
+.xk_nav1 span font{ display:block; width:14px; height:14px; border:1px solid #c0c0c0; position:absolute; left:0px; top:-2px;}
+.xk_nav1 span a.on font{border:1px solid #ff4a00; background:url(images/yx_dj_03.jpg) no-repeat;}
+.xk_nav1 span a:hover{ color:#ff4a00; text-decoration:none;}
+.xk_nav1 span a:hover font{text-decoration:none; border:1px solid #ff4a00;}
+.xk_nav1 i{ font-style:normal; color:#eaeaea; height:16px; font-size:16px; float:left;}
+.xk_nav1:after {content:'';display:block;clear:both;height:0px;}

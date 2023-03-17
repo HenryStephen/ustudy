@@ -1,0 +1,63 @@
+server:
+  port: 4002
+  servlet:
+    encoding:
+      charset: utf-8
+      force: true
+
+logging:
+  level:
+    cn.edu.nciae: debug
+    com.bomidou: debug
+
+spring:
+  datasource:
+    type: com.mchange.v2.c3p0.ComboPooledDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: TnymGDkNPDxrcs4P
+    url: jdbc:mysql://aliyun.yeli.io:4001/ustudy?seUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: true
+      FAIL_ON_EMPTY_BEANS: false
+  redis:
+    host: aliyun.yeli.io
+    port: 4002
+    password: TnymGDkNPDxrcs4P
+
+mybatis:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  type-aliases-package: cn.edu.nciae.ustudy.po
+
+mybatis-plus:
+  typeEnumsPackage: cn.edu.nciae.ustudy.enums
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    lazy-loading-enabled: true
+    aggressive-lazy-loading: false
+
+
+ustudy:
+  security:
+    captcha:
+      image:
+        expireIn: 6000
+        width: 400
+        height: 100
+        urls:
+          - /code/sms
+      sms:
+        expireIn: 6000
+        urls:
+          - "POST /user"
+    jwt:
+      base64Secret: ZmQ0ZGI5NjQ0MDQwY2I4MjMxY2Y3ZmI3MjdhN2ZmMjNhODViOTg1ZGE0NTBjMGM4NDA5NzYxMjdjOWMwYWRmZTBlZjlhNGY3ZTg4Y2U3YTE1ODVkZDU5Y2Y3OGYwZWE1NzUzNWQ2YjFjZDc0NGMxZWU2MmQ3MjY1NzJmNTE0MzI
+      expireInSeconds: 86400
+  web:
+    allowedOrigins: http://localhost:8080
+  file:
+    location: /Users/tang/Projects/ustudy/resource

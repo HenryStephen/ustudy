@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* 登录 注册 */
+.areaClose{display: block;width:56px;height: 56px;text-align: center;background: url(../images/zg19colse.png) no-repeat center;position: absolute;right:0;top:0;cursor: pointer}
+.zg19_pop{position: fixed;width:432px;height: 550px; background:#fff;position:fixed;left:50%;top:50%;margin-left:-216px;margin-top:-275px;z-index:999;display: none;}
+.zg19_pop .areaClose{right:-56px;top:0;}
+.zg19_popT{text-align: center;padding:42px 0 20px;}
+.zg19_loginbot{width:100%;position: absolute;left:0;bottom:0;height: 58px;line-height: 58px;text-align: center;font-size: 14px;color:#666;background:#f0f0f0;}
+.zg19_loginbot a{color:#0d82e6}
+.zg19_loginOther{text-align: center;line-height: 64px;font-size:14px;color:#666}
+.zg19_loginOther p {font-size:0;height: 36px;}
+.zg19_loginOther p a{display: inline-block;width:36px;height: 36px;margin:0 20px;}
+.zg19_iconQq{background: url(../images/zg19_icon1.jpg) no-repeat left top;}
+.zg19_iconWx{background: url(../images/zg19_icon1.jpg) no-repeat center top;}
+.zg19_iconWb{background: url(../images/zg19_icon1.jpg) no-repeat right top;}
+
+
+.zg19_from{padding:0 34px;}
+.zg19_from li{height:42px;border-bottom:1px solid #ddd; padding:9px 0;position: relative}
+.zg19_from li span{float:right;line-height: 42px;}
+.zg19_inpt{width:240px;height: 42px;line-height: 42px;font-size:14px;color:#333;font-family: "Microsoft YaHei";font-weight: bold;border: 0!important;}
+.zg19_inpt::-webkit-input-placeholder {
+    color: #999;font-weight: normal;
+}
+.zg19_inpt:-moz-placeholder {
+    color: #999;font-weight: normal;
+}
+.zg19_inpt::-moz-placeholder{
+    color: #999;font-weight: normal;
+}
+.zg19_inpt:-ms-input-placeholder {
+    color: #999;font-weight: normal;
+}
+.zg19_regBtn{display: block;width:100%;height:45px;line-height: 45px;text-align: center;color:#fff;background:#028bff;border-radius: 3px;font-size:16px;font-family: "Microsoft YaHei";cursor: pointer;}
+.zg19_from p{line-height: 49px;}
+.zg19_from p a{float:right;font-size:14px;color:#999}
+.zg19_from p a:hover{color:#0d82e6;text-decoration: underline}
+.eyes{display: block;width:20px;height:42px;background: url(../images/zg19_eyes.png) no-repeat left 15px; position: absolute;right:20px;top:11px;cursor: pointer;}
+.eyes_open{background: url(../images/zg19_eyes.png) no-repeat right 14px; }
+
+.zg_pwd{display: none;}
+.zg_yzmA{font-size:14px;line-height: 42px;cursor: pointer}
+.zg_yzmpic{cursor: pointer}
+.mt48{margin-top:48px;}
+.mt108{margin-top:108px;}
+
+.colorRed{color:#f13232;}
+#J_verifymsg{position: absolute;right: 87px;}
+#J_verifyTip{position: absolute;right: 100px;}

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="01－数据库认知,【基础】Java开发基础之MySQL数据库的基础操作"/>
+    <meta name="description"
+          content=""/>
+    <title>培训课程__优就业IT在线教育</title>
+    <link type="text/css" href="public/css/public.css?v=6" rel="stylesheet"/>
+    <link type="text/css" href="public/css/base.css?v=1" rel="stylesheet"/>
+    <link href="public/it/css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="public/it/css/layout.css?v=1" rel="stylesheet" type="text/css"/>
+    <link href="public/it/css/skin.css" rel="stylesheet" type="text/css"/>
+    <script language="javascript" src="public/it/js/jquery.min.js"></script>
+    <script type="text/javascript" src="public/js/jquery.cookie.js"></script>
+    <script language="javascript" src="public/it/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script language="javascript" src="public/it/js/live_slider.js"></script>
+    <link href="public/skin_it/index/youxue_public.css" rel="stylesheet" type="text/css"/>
+    <link href="public/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="public/it/css/base.css?v=6" rel="stylesheet" type="text/css"/>
+    <link href="public/skin_it/common.css" rel="stylesheet" type="text/css"/>
+    <link href="public/css/offcn_style1200.css?v=1" rel="stylesheet" type="text/css" id="skin"/>
+    <link href="public/skin_it/skin_youxue.css" rel="stylesheet" type="text/css"/>
+    <link href="public/it/css/index.css?v=1.1.0" rel="stylesheet" type="text/css"/>
+    <script src="public/js/header.js"></script>
+<!--    <script src="public/js/checklogin.js"></script>-->
+<!--    <script src="public/js/outlogin.js"></script>-->
+    <script type="text/javascript" src="public/js/java.js"></script>
+    <script type="text/javascript" src="public/js/list.js"></script>
+    <script language="javascript" src="public/it/js/index.js"></script>
+    <link rel="stylesheet" href="public/19ke/v2/public/css/style_19new.css" rel="stylesheet">
+    <script type="text/javascript" src="public/19ke/v2/public/js/jquery.tinyscrollbar.js"></script>
+    <script type="text/javascript" src="public/19ke/v2/public/js/js_19new.js"></script>
+<body>
+
+<style>
+    .zg_uxEwm {
+        position: absolute;
+        width: 150px;
+        padding: 10px;
+        background: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+        top: 40px;
+        left: -40px;
+        display: none;
+    }
+
+    .zg_uxEwm dt {
+        float: left;
+        width: 80px;
+    }
+
+    .zg_uxEwm dd {
+        text-align: center;
+        font-family: 'Microsoft Yahei';
+        font-size: 14px;
+        color: #666;
+        padding-top: 15px;
+    }
+
+    .appXZ:hover .zg_uxEwm {
+        display: block;
+    }
+</style>
+
+</head>
+<div class="offcn_head">
+    <div class="eTop_nav">
+        <div class="eTopRight">
+            <div class="eUser">
+                <p class="eLogin">
+                    <a href="javascript:void(0)" rel="nofollow" class="login_button">登录</a>
+                    <a href="javascript:void(0)" rel="nofollow" class="register_button">注册</a>
+                </p>
+                <a href="/mycourse/index/">
+                    <span id="eUserpic">
+                    <img src="public/images/dftouxiang.jpg" width="30" height="30">
+                    </span>
+                </a>
+                <div class="eUserBox">
+                    <a href="/mycourse/index/" rel="nofollow">我的课程</a>
+                    <a href="/favorite/index/" rel="nofollow">我的收藏</a>
+                    <a href="/orders/myorders/" rel="nofollow">我的订单</a>
+                    <a href="/determine/relist" rel="nofollow">我的测评</a>
+                    <a href="/mycoupon/index/" rel="nofollow">我的优惠券</a>
+                    <a href="/user/index" rel="nofollow">帐号设置</a>
+                    <a onclick="outlogin();" href="javascript:;" rel="nofollow">退出登录</a>
+                </div>
+            </div>
+            <div class="zg_index_sys">
+                <span>&nbsp;</span>
+                <div class="zg_index_ewm">
+                    <div class="zg_index_de">
+                        <img src="public/it/images/ujyx_16.jpg" alt="IT优学APP">
+                        <p>扫码下载<br>IT优学APP</p>
+                    </div>
+                    <div class="zg_index_de">
+                        <img src="public/it/images/ujyx_17.jpg" alt="中公优就业">
+                        <p>扫码关注<br>中公优就业</p>
+                    </div>
+                </div>
+            </div>
+            <div class="eTopShopCart">
+                <a class="eTopcen" rel="nofollow" href="/shopcart/cart_to_shop/">
+                    <span id="J-shoping-num"></span>
+                </a>
+            </div>
+            <form action="/list/" method="get">
+                <div class="eSecher eSecher1">
+                    <div class="formInp" style="display:none;">
+                        <input type="text" name="title" class="eTxt" placeholder="搜索课程" value=""
+                               style="display: inline-block;">
+                        <input type="submit" class="eSub" value="">
+                    </div>
+                    <span class="eSub02"></span>
+                </div>
+            </form>
+        </div>
+        <a class="eLogo" href="/"><img src="public/it/images/logo_it.jpg"
+                                                            title="优学-IT职业在线教育"></a>
+        <div class="e_nav">
+            <div class="e_nd" id="it_index_span">
+                <a target="_self" href="/" class="">首页</a>
+            </div>
+            <div class="e_nd" id="it_index_jpkc">
+                <i>&nbsp;</i>
+                <a target="_self" href="/list/">精品课程</a>
+                <ul class="zg_jpkcx">
+                    <li><a href="/list/?price=2" target="_blank">免费课程</a></li>
+                    <li><a href="/list/?price=1" target="_blank">精品网课</a></li>
+                </ul>
+            </div>
+            <div class="e_nd"><a target="_self" href="/zhibo/">在线直播</a></div>
+            <div class="e_nd"><a target="_blank" href="/ke/">IT培训班</a></div>
+            <div class="e_nd"><a target="_blank" href="http://www.ujiuye.com/">IT培训机构</a></div>
+            <div class="e_nd"><a target="_blank" href="/zt/2020zt/xthz/" rel="nofollow">在线就业班</a>
+            </div>
+            <div class="e_nd appXZ">
+                <a target="_blank" href="/zt/ityxapp/" rel="nofollow"
+                   style="color:#ff4905;border:1px solid #ff4905;border-radius: 6px;">APP下载</a>
+                <dl class="zg_uxEwm">
+                    <dt><img src="public/it/images/ujyx_16.jpg" alt="IT优学APP"></dt>
+                    <dd>扫码下载<br>IT优学APP</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="offcn-itop" style="display: none;"><a></a></div>
+<link href="public/video/css/global.css?v=1.0" rel="stylesheet" type="text/css"/>
+<link href="public/video/css/style.css?v=1.1.4" rel="stylesheet" type="text/css"/>
+<link id="wids" href="public/video/css/style1200.css?v=1.0" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="public/video/jquery.mCustomScrollbar.css">
+<script src="public/video/jquery-ui.min.js"></script>
+<script src="public/video/jquery.mousewheel.min.js"></script>
+<script src="public/video/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="public/video/js/java.js?v=2"></script>
+<script type="text/javascript" src="public/video/js/lrtk.js"></script>
+<script type="text/javascript" src="public/js/outlogin.js"></script>
+<link href="public/19ke/css/index.css?v=100" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="public/19ke/js/hls.js?v=103"></script>
+<script type="text/javascript" src="public/19ke/js/index_big_h5.js?v=102"></script>
+<script>
+    (function ($) {
+        $(document).ready(function () {
+            $("#pane1").mCustomScrollbar();
+            $("#pane1").mCustomScrollbar("scrollTo", "#pane1 .on");
+        });
+    })(jQuery);
+</script>
+<input name="video_id" type="hidden" value=""/>
+<script type="text/javascript" src="public/js/jQuery-shoppingnew.js?v=1.1.5"></script>
+<div class="zg_videobox">
+    <div class="zg_video">
+        <div class="zg_video_bt">
+<span>
+<a href="/class-76357/">< 返回课程主页</a>
+</span>
+            课件1：01－数据库认知
+            <style>
+                .offcn_newbtn {
+                    display: inline-block;
+                    *display: inline;
+                    zoom: 1;
+                    width: 86px;
+                    height: 24px;
+                    border: 1px solid #FF740F;
+                    margin-right: 10px;
+                    font-size: 12px;
+                    line-height: 24px;
+                    color: #ff740f;
+                    border-radius: 3px;
+                    text-align: center;
+                    margin-top: 12px;
+                }
+
+                .offcn_newbtn:hover {
+                    background: #ff740f;
+                    color: #fff;
+                    text-decoration: none;
+                }
+            </style>
+            <script>
+                $(function () {
+//                $.qglobal.ui.getAppraisalForCourse();
+                    $('.Q-buy-btn').shoping(); //调用shoping函数
+                    $('.Q-directbuy-btn').directshoping(); //调用directshoping函数
+                    $('#J_confirm_userinfo').checkoutoperate();
+
+                })
+            </script>
+        </div>
+        <div class="zg_video_cont offcn_size">
+            <div class="zg_shipin" >
+                <div class="zg_shipin_cont" id="KeFuDiv">
+                    <div class="zg19_lb_jzts" style="display:none">加载失败，请刷新重试</div>
+                    <p class="xlzh" style="display:none;">线路切换中...</p>
+                    <div style="width: 100%; height: 100%; " id="KeFuDivcontent" style="display:none">
+                        <img src="public/images/offcn_shuaxinbg.jpg" class="playimg"/>
+                        <div class="playZD_kcqx" >
+                            <dl>
+                                <dt>收费课程</dt>
+                                <dd>购买课程后可学习全部内容</dd>
+                                <dd><em class="kcxx">课程信息</em></dd>
+                                <dd>课件价格：0.00元</dd>
+                                <dd>课时：9</dd>
+                                <dd>在线人数：229231人</dd>
+                                <dd><a href="javascript:void(0);" id="J_submit_orders_zero" data-cid="76357"
+                                       class="playZD_zbs">加入学习</a></dd>
+                                <script type="text/javascript">
+                                    $(function () {
+                                        $(".zg19_lb_jzjx").css('display', "none");
+                                    })
+                                </script>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="kcbf_jiao" id="kcbf_jiao"></div>
+                <div class="zg_mulu" style="height: 598px;">
+                    <div class="zg_mulu_bt"><span class="on"><i>目录</i></span></div>
+                    <div class="tablecont osX">
+                        <div id="pane1" class="scroll-pane" style="position:relative;">
+                            <ul class="mulunr">
+                                <li class="on">
+                                    <em>01</em>
+                                    <span data-flag="online_1472577" class="ioc01">
+                                    <a class="spec1" data-time="13:53" href="/video-1472577/?cid=76357&amp;ctype=1" title="01－数据库认知">
+                                    【视频】01－数据库认知</a> [13:53]
+                                    </span>
+                                </li>
+                                <li>
+                                    <em>02</em>
+                                    <span data-flag="online_1472578" class="ioc01">
+                                    <a class="spec1" data-time="06:36" href="/video-1472578/?cid=76357&amp;ctype=1"
+                                       title="02－数据库管理系统认知">
+                                    【视频】02－数据库管理系统认知</a> [06:36]
+                                    </span>
+                                </li>
+                                <li>
+                                    <em>03</em>
+                                    <span data-flag="online_1472579" class="ioc01">
+                                    <a class="spec1" data-time="28:35" href="/video-1472579/?cid=76357&amp;ctype=1"
+                                       title="03－MySQL认知与使用">
+                                    【视频】03－MySQL认知与使用</a> [28:35]
+                                    </span>
+                                </li>
+                                <li>
+                                    <em>04</em>
+                                    <span data-flag="online_1472580" class="ioc01">
+                                    <a class="spec1" data-time="12:41" href="/video-1472580/?cid=76357&amp;ctype=1" title="04-SQL语句认知">
+                                    【视频】04-SQL语句认知</a> [12:41]
+                                    </span>
+                                </li>
+                                <li>
+                                    <em>05</em>
+                                    <span data-flag="online_1472581" class="ioc01">
+                                    <a class="spec1" data-time="06:11" href="/video-1472581/?cid=76357&amp;ctype=1"
+                                       title="05-SQLYog使用">
+                                    【视频】05-SQLYog使用</a> [06:11]
+                                    </span>
+                                </li>
+                                <li>
+                                    <em>06</em>
+                                    <span data-flag="online_1472582" class="ioc01">
+                                    <a class="spec1" data-time="39:48" href="/video-1472582/?cid=76357&amp;ctype=1"
+                                       title="06-数据定义语言DDL">
+                                    【视频】06-数据定义语言DDL</a> [39:48]
+                                    </span>
+                                </li>
+                                <li>
+                                    <em>07</em>
+                                    <span data-flag="online_1472583" class="ioc01">
+                                    <a class="spec1" data-time="34:31" href="/video-1472583/?cid=76357&amp;ctype=1"
+                                       title="07-数据操作语言DML">
+                                    【视频】07-数据操作语言DML</a> [34:31]
+                                    </span>
+                                </li>
+                                <li>
+                                    <em>08</em>
+                                    <span data-flag="online_1472584" class="ioc01">
+                                    <a class="spec1" data-time="46:12" href="/video-1472584/?cid=76357&amp;ctype=1"
+                                       title="08-数据查询语言DQL">
+                                    【视频】08-数据查询语言DQL</a> [46:12]
+                                    </span>
+                                </li>
+                                <li>
+                                    <em>09</em>
+                                    <span data-flag="online_1472585" class="ioc01">
+                                    <a class="spec1" data-time="32:18" href="/video-1472585/?cid=76357&amp;ctype=1" title="09-约束">
+                                    【视频】09-约束</a> [32:18]
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zg_video_bot">
+            <div class="xlzz"><a class="da" href="javascript:void(0)" class="on"><em class="ioc01">&nbsp;</em>线路</a>
+                <p class="xlz"><a href="javascript:void(0);" onclick="onLinePlay(0);" class="hover"><em>√</em>线路1</a><a
+                        href="javascript:void(0);" onclick="onLinePlay(1);"><em>√</em>线路2</a><a
+                        href="javascript:void(0);" onclick="onLinePlay(2);"><em>√</em>线路3</a></p></div>
+            <ul>
+                <li><a href="javascript:void(0);" id="house" style="color:#999;" data-id=""><em
+                        class="ioc02">&nbsp;</em>收藏</a></li>
+                <li><a href="javascript:void(0)"><em class="ioc04">&nbsp;</em>手机看</a>
+                    <p class="app">
+                        <span class="jiao">&nbsp;</span>
+                        <font><strong><em>方式1</em>：用手机看</strong><img src="public/cimages/wx_it.png" width="106"
+                                                                     height="106"/></font>
+                    </p>
+                </li>
+                <li><a href="/help/questionnaire/cid/76357/lid/1472577/" target="_blank"><em
+                        class="ioc06">&nbsp;</em>问题反馈</a></li>
+            </ul>
+            <div class="zg_video_msqh on" onClick="daymsqh(this);">白天模式</div>
+            <div class="xlzz xlzz_new"><a class="da" id="vspeed" href="javascript:void(0)"><em class="ioc02">&nbsp;</em>倍速</a>
+                <p class="xlz"><a href="javascript:void(0);" class="hover" class="on"
+                                  onclick="onchangespeed(1);"><em>√</em>×1倍</a><a href="javascript:void(0);"
+                                                                                  onclick="onchangespeed(1.2);"><em>√</em>×1.2倍</a><a
+                        href="javascript:void(0);" onclick="onchangespeed(1.35);"><em>√</em>×1.35倍</a><a
+                        href="javascript:void(0);" onclick="onchangespeed(1.5);"><em>√</em>×1.5倍</a><a
+                        href="javascript:void(0);" onclick="onchangespeed(1.6);"><em>√</em>×1.6倍</a><a
+                        href="javascript:void(0);" onclick="onchangespeed(1.8);"><em>√</em>×1.8倍</a><a
+                        href="javascript:void(0);" onclick="onchangespeed(2.0);"><em>√</em>×2.0倍</a></p></div>
+            <script>
+                function daymsqh(obj) {
+
+                    var tmp = obj;
+                    if ($(tmp).hasClass('on')) {
+                        $(tmp).removeClass('on').html('夜间模式');
+                        $('.zg_videobox').addClass('zg_videoday');
+                    } else {
+                        $(tmp).addClass('on').html('白天模式');
+                        $('.zg_videobox').removeClass('zg_videoday');
+                    }
+                }
+            </script>
+        </div>
+    </div>
+</div>
+<script language="javascript" src="public/js/qglobal.js"></script>
+<script language="javascript" src="public/js/front.js"></script>
+<script type="text/javascript" src="public/js/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="public/js/book.js"></script>
+<script type="text/javascript" src="public/js/simplefoucs.js"></script>
+<!--<div class="clearfix">&nbsp;</div>-->
+<div class="footer" style="width:100%;height:auto;">
+    <div style="display: inline-block;">
+        <a href="http://www.ujiuye.com/aboutus.html" target="_blank"> 关于我们 </a> |
+        <a href="http://www.ujiuye.com/contactus.html" rel="nofollow" target="_blank"> 联系我们 </a> |
+        <a href="http://www.ujiuye.com/join.html" rel="nofollow" target="_blank"> 加入我们 </a> |
+        <a href="http://www.ujiuye.com/honor/" target="_blank">品牌荣誉</a> |
+        <a href="http://www.ujiuye.com/copyright.html" rel="nofollow" target="_blank"> 版权申明 </a> |
+        <a href="http://www.ujiuye.com/map.html" target="_blank"> 网站地图 </a> |
+        <a href="http://www.ujiuye.com/pay.html" rel="nofollow" target="_blank"> 支付方式</a>
+        <br/>
+        Copyright&copy;1999-2020 北京中公教育科技有限公司 .All Rights Reserved <br><a href="http://beian.miit.gov.cn"
+                                                                          rel="noopener noreferrer nofollow"
+                                                                          target="_blank">京ICP备10218183号-88</a>
+        京ICP证161188号 <a target="_blank"
+                        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020723"
+                        rel="nofollow"> <img src="public/images/gongbei.png"/> 京公网安备11010802020723号</a> <a href="https://zzlz.gsxt.gov.cn/businessCheck/verifKey.do?showType=p&serial=91110108551426892J-SAIC_SHOW_10000091110108551426892J1597908389910&signData=MEQCIAjh2PzB/huK3VthSDjclM0D4XYdpUkkzuCCTMoQoaiQAiAqp/yCZfT97roNePZXOvVGr05AU9/gp4WGFBMeWUQhwg==
+" target="_blank" rel="nofollow"><img src="uploads_it/2008/QuanGuo/F8K1178241218YGC.png"> </a>
+        <script type="text/javascript" src="http://www.offcn.com/statics/js/gzbot.js"></script>
+    </div>
+    <div style="position: relative;display: inline;top: -15px;left: 20px;">
+        <a key="57d8aeb4efbfb021949e864b" rel="nofollow" logo_size="83x30" logo_type="realname"
+           href="http://www.anquan.org">
+            <script src="http://static.anquan.org/static/outer/js/aq_auth.js"></script>
+        </a>
+        <a key="58d342bdefbfb02be90c4fa9" rel="nofollow" logo_size="83x30" logo_type="common"
+           href="http://www.anquan.org">
+            <script src="http://static.anquan.org/static/outer/js/aq_auth.js"></script>
+        </a>
+    </div>
+</div>
+</body>
+</html>

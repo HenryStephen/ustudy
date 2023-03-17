@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document 0097D4 */
+@font-face {font-family: "iconfont";
+  src: url('../../../../fonts/iconfont.eot'); /* IE9*/
+  src: url('../../../../fonts/iconfont.eot?') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../../../fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+  url('../../../../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('../../../../fonts/iconfont.svg') format('svg'); /* iOS 4.1- */
+}
+
+/* CSS Document */
+.lgb_bgc{background-color:#ff4a00;}
+.lgb_bgc_h{background-color:#ededed;}
+.bgc_grzx{background:#0097D4;}
+.zg_gerenmain_left ul li a:hover{ background:#f0f0f0; border-left:solid 4px #ff4a00;}
+.zg_gerenmain_left ul li a.on{ border-left:solid 4px #ff4a00;}
+.zg_gerenmain_right_bt a:hover{ border:solid 1px #ff4a00;  background:#ff4a00;}
+.zg_gerenmain_right_bt a.hover{  border:solid 1px #ff4a00;  background:#ff4a00;}
+.font_color{ color:#f60;}
+
+.zg_tuikuan_tijiao_yi{background:url(../images/geren_bk.gif) no-repeat -150px -50px; }
+.zg_tuikuan_tijiao_er{background:url(../images/geren_bk.gif) no-repeat -420px -50px; }
+.zg_tuikuan_tijiao_san{background:url(../images/geren_bk.gif) no-repeat -151px -50px;}
+.zg_tuikuan_tijiao_top em{  background:url(../images/geren_bk.gif) no-repeat -150px 0px; }
+.zg_tuikuan_tijiao_top em.bk{  background:url(../images/geren_bk.gif) no-repeat -175px 0px; }
+.zg_tuikuan_tijiao_yi span{  background:url(../images/geren_bk.gif) no-repeat -200px 0; }
+.zg_tuikuan_tijiao_er span{ background:url(../images/geren_bk.gif) no-repeat -205px 0; }
+.zg_tuikuan_tijiao_san span{  background:url(../images/geren_bk.gif) no-repeat -205px 0; }
+
+/*找回密码*/
+.offcnmima_main_1tit{height:90px; background:url(../images/geren_bk.gif) no-repeat left -125px; margin-bottom:50px;}
+.offcnmima_main_1tit_1{height:90px; background:url(../images/geren_bk.gif) no-repeat left -192px; margin-bottom:50px;}
+.offcnmima_main_1tit_2{height:90px; background:url(../images/geren_bk.gif) no-repeat left -258px; margin-bottom:50px;}
+.offcnmima_main_2 ul li span .youxiang{font-size:16px;color:#333; display:inline-block;height:40px;width:168px;padding:14px 0 0 0px;border:1px solid #dadada;}
+.offcnmima_main_2 ul li span .youxiang .iconfont { font-style:normal; font-family:"iconfont" !important;font-size:24px; color:#ff4a00;}
+.offcnmima_main_2 ul li span .youxiang:hover{background:#ff4a00;color:#fff;border:1px solid #ff4a00; text-decoration:none; transition:none;}
+.offcnmima_main_2 ul li span .youxiang:hover .iconfont{color:#fff;}
+.offcnmima_main_2 ul li span .phone{font-size:16px;color:#333; display:inline-block;height:40px;width:168px; padding:14px 0 0 0px;border:1px solid #dadada;}
+.offcnmima_main_2 ul li span .iconfont { font-style:normal; font-family:"iconfont" !important;font-size:24px; color:#ff4a00;}
+.offcnmima_main_2 ul li span .phone:hover{background:#ff4a00;color:#fff;border:1px solid #ff4a00;transition:none; text-decoration:none}
+.offcnmima_main_2 ul li span .phone:hover .iconfont{color:#fff;}
+.offcnloginleft ul li .iconfont,.zg_xgziliao td .iconfont,.zg_xgmima .iconfont,.zg_fasongyj td .iconfont,.success_1 .iconfont{ font-style:normal; font-family:"iconfont" !important;font-size:16px; color:#fc9a1d;}
+.success_1 .iconfont{color:#ff4a00}
+
+/*login*/
+/*.offcnloginright dl dd{background:url(../images/geren_bk.gif) no-repeat -718px 14px; padding-left:15px;}*/
+
+
+.button_color{background:#ff4a00;}
+
+
+.dj_dsf:hover{ border:solid 1px #ff4a00;  background:#ff4a00; color:#fff; text-decoration:none;}
+.jc_dsf{color:#ff4a00;}
+.zg_lg_re .zg_lg_dq{ border-bottom:none; background:#fff; color:#333; border-top:2px solid #ff4a00;}
